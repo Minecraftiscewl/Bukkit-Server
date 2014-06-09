@@ -1,0 +1,38 @@
+[18:06:54] [Server thread/INFO]: Starting minecraft server version 1.7.5
+[18:06:54] [Server thread/INFO]: Loading properties
+[18:06:54] [Server thread/WARN]: server.properties does not exist
+[18:06:54] [Server thread/INFO]: Generating new properties file
+[18:06:54] [Server thread/INFO]: Default game type: SURVIVAL
+[18:06:54] [Server thread/INFO]: Generating keypair
+[18:06:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:06:54] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks (MC: 1.7.5) (Implementing API version 1.7.5-R0.1-SNAPSHOT)
+[18:06:55] [Server thread/WARN]: Failed to load operators list: java.io.FileNotFoundException: .\ops.txt (The system cannot find the file specified)
+[18:06:55] [Server thread/WARN]: Failed to load white-list: java.io.FileNotFoundException: .\white-list.txt (The system cannot find the file specified)
+[18:06:55] [Server thread/INFO]: Preparing level "false"
+[18:06:55] [Server thread/WARN]: Unable to find spawn biome
+[18:06:55] [Thread-6/INFO]: ----- Bukkit Auto Updater -----
+[18:06:55] [Thread-6/INFO]: It appears that you're running a Development Build, when you've specified in bukkit.yml that you prefer to run Recommended Builds.
+[18:06:55] [Thread-6/INFO]: If you would like to be kept informed about new Development Build releases, it is recommended that you change 'preferred-channel' in your bukkit.yml to 'dev'.
+[18:06:55] [Thread-6/INFO]: With that set, you will be told whenever a new version is available for download, so that you can always keep up to date and secure with the latest fixes.
+[18:06:55] [Thread-6/INFO]: If you would like to disable this warning, simply set 'suggest-channels' to false in bukkit.yml.
+[18:06:55] [Thread-6/INFO]: ----- ------------------- -----
+[18:06:55] [Server thread/INFO]: Preparing start region for level 0 (Seed: 2494306002479480263)
+[18:06:56] [Server thread/INFO]: Preparing spawn area: 7%
+[18:06:57] [Server thread/INFO]: Preparing spawn area: 13%
+[18:06:58] [Server thread/INFO]: Preparing spawn area: 24%
+[18:06:59] [Server thread/INFO]: Preparing spawn area: 36%
+[18:07:00] [Server thread/INFO]: Preparing spawn area: 48%
+[18:07:01] [Server thread/INFO]: Preparing spawn area: 60%
+[18:07:02] [Server thread/INFO]: Preparing spawn area: 71%
+[18:07:03] [Server thread/INFO]: Preparing spawn area: 83%
+[18:07:04] [Server thread/INFO]: Preparing spawn area: 94%
+[18:07:05] [Server thread/INFO]: Preparing start region for level 1 (Seed: 2494306002479480263)
+[18:07:06] [Server thread/INFO]: Preparing spawn area: 19%
+[18:07:07] [Server thread/INFO]: Preparing spawn area: 30%
+[18:07:08] [Server thread/INFO]: Preparing spawn area: 47%
+[18:07:09] [Server thread/INFO]: Preparing spawn area: 62%
+[18:07:10] [Server thread/INFO]: Preparing spawn area: 82%
+[18:07:11] [Server thread/INFO]: Preparing spawn area: 99%
+[18:07:11] [Server thread/INFO]: Preparing start region for level 2 (Seed: 2494306002479480263)
+[18:07:12] [Server thread/INFO]: Preparing spawn area: 71%
+[18:07:12] [Server thread/INFO]: Done (17.530s)! For help, type "help" or "?"
