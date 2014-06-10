@@ -1,0 +1,45 @@
+portals:
+  Real-Spawn:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Minecraftiscewl
+    location: 122.0,65.0,274.0:122.0,67.0,277.0
+    world: Spawn
+    destination: hub
+  Hub:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Minecraftiscewl
+    location: 122.0,65.0,274.0:122.0,67.0,277.0
+    world: Spawn
+    destination: hub
+  Marp:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Minecraftiscewl
+    location: 122.0,65.0,274.0:122.0,67.0,277.0
+    world: Spawn
+    destination: hub
+  Derp:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Minecraftiscewl
+    location: 122.0,65.0,274.0:122.0,67.0,277.0
+    world: Spawn
+    destination: hub

@@ -1,3 +1,4 @@
-# Updated 6/9/14 6:06 PM by Minecraft 1.7.5
+# Updated 6/9/14 6:35 PM by Minecraft 1.7.5
 # victim name | ban date | banned by | banned until | reason
 
+blue_nugget|2014-06-09 18:33:18 -0500|Minecraftiscewl|Forever|Banned by an operator.
