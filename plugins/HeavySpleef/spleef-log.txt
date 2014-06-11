@@ -95,3 +95,6 @@
 2014-06-11 16:40:36 Stopping plugin!
 2014-06-11 16:40:46 Starting plugin version 1.5.1!
 2014-06-11 16:41:07 Starting plugin version 1.5.1!
+2014-06-11 16:42:16 Starting plugin version 1.5.1!
+2014-06-11 16:46:54 Stopping plugin!
+2014-06-11 16:48:40 Starting plugin version 1.5.1!

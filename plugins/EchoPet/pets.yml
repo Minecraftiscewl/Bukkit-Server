@@ -5,7 +5,3 @@ autosave:
       name: Cow Pet
       data:
         baby: true
-  009b4f9b-9af1-495a-a6d0-7472260f7254:
-    pet:
-      type: SILVERFISH
-      name: Silverfish Pet
