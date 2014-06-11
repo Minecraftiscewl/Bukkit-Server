@@ -1,7 +1,11 @@
 autosave:
   36c84ed1-708a-4fc1-b31e-031bf1511de6:
     pet:
-      type: CHICKEN
-      name: Chicken Pet
+      type: COW
+      name: Cow Pet
       data:
         baby: true
+  009b4f9b-9af1-495a-a6d0-7472260f7254:
+    pet:
+      type: SILVERFISH
+      name: Silverfish Pet
