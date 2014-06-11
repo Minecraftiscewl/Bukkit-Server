@@ -1,0 +1,9 @@
+id: 280
+displayname: &2DemoItem
+lore: &3This is a && &3demo item
+damageentityevent: me hit a <clicked>
+rightclickblockevent: me right-clicked a block
+leftclickairevent: me left-clicked the air
+holdevent: me held a special item
+global: false
+single-use: false

@@ -1,0 +1,6 @@
+format: <%PLAYER%> %MESSAGE%
+no-hear: false
+no-hear-message: No players is in this world/worldgroup! Use /global to talk with everyone!
+groups-enabled: false
+groups:
+- '1:'

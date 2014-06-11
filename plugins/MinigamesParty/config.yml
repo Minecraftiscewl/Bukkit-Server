@@ -1,0 +1,51 @@
+# MinigamesParty Config #
+# rewards are always a random amount between max_reward and min_reward
+# if use_economy is true, the winner gets money,
+# otherwise the winner gets credits, which are saved in the config
+config:
+  auto_updating: true
+  min_players: 1
+  game-on-join: false
+  max_reward: 30
+  min_reward: 10
+  use_economy: false
+  use_item_rewards: false
+  item_reward_maxamount: 10
+  item_reward_minamount: 3
+  item_reward_id: 264
+  max_players: 50
+  scoreboardoutgame: true
+  announcements: true
+  seconds_for_each_minigame: 60
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  database: bukkit
+  user: root
+  pw: toor
+strings:
+  you_left: You left the game.
+  next_round_30_seconds: Next round in 30 seconds! You can leave with /mp leave.
+  description:
+    colormatch: Jump to the color corresponding to the wool color in your inventory!
+    deadend: Don't fall while the blocks are disappearing behind you!
+    disintegration: Don't fall while the floor is disappearing!
+    jumpnrun: Jump to the finish!
+    lastarcherstanding: Shoot the others with the bow!
+    minefield: Run to the finish without touching the mines!
+    sheepfreenzy: 'Shear as many Sheeps as possible! Attention: Some of them explode.'
+    smokemonster: Avoid the smoke monster!
+    spleef: Destroy the floor under your opponents to make them fall and lose!
+    slapfight: Slap the other players to fall! You can use Double Jump in case you fall, too.
+    chickentag: Pass the chicken to others or you'll lose!
+  your_place: You are <place> place.
+shop:
+  grenades_price: 70
+  jumpboost_price: 60
+  deadendboost_price: 50
+  chickentagboost_price: 60
+  slapfight_knockback_price: 100
+  smokemonsterboost_price: 150
+  jumpnrunboost_price: 150
+  sheepfreenzyimmunity_price: 100
+  megagrenades_price: 130

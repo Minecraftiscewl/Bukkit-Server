@@ -1,0 +1,65 @@
+Color-Prefix: GREEN
+Color-Normal-Message: GOLD
+Color-Error-Message: RED
+Color-Friend-Chat: GREEN
+Prefix-Plugin: '[Friends] '
+Prefix-List: '[Friends List] '
+Prefix-List-Online: '[Friends Online] '
+Msg-DoubleXP: Received friend XP bonus, total of <XP> XP!
+Msg-TP-Enabled: Enabled friends teleporting.
+Msg-TP-Disabled: Disabled friends teleporting.
+Msg-Gift-Enabled: Enabled friends gifts.
+Msg-Gift-Disabled: Disabled friends gifts.
+Msg-Invites-Enabled: Enabled friend invites.
+Msg-Invites-Disabled: Disabled friend invites.
+Msg-GiftSend: Send gift to <player>
+Msg-GiftReceived: Received gift from <player>.
+Msg-InviteSend: Invite send to <player>
+Msg-InviteReceived: New invite from <player>, use /blf add <player> to accept.
+Msg-AddedFriend: Added <player> as friend.
+Msg-AcceptedInvite: <player> has accepted your friend invite.
+Msg-RemovedFriend: You have removed <player> from your friends.
+Msg-TpToFriend: Teleporting to <player>...
+Msg-TpFromFriend: <player> teleported to you.
+Msg-FeatureDisabled: This feature is disabled by server admin.
+Msg-FriendChatEnabled: Friends only chat enabled.
+Msg-FriendChatDisabled: Friends only chat disabled.
+Error-Creative-DXP: XP drops are disable in creative mode!
+Error-Limit: You have too many friends! Server friend list limit has been set <limit> friends.
+Error-Target-Limit: <player> has too many friends! Server friend list limit has been set <limit> friends.
+Error-FriendChatDisabled: Friend chat is disabled, your next message will be shown to everyone.
+Error-SelfInvite: So, how is that retard mode working for you? (cant use this command to yourself).
+Error-SelfCommand: You cannot use this command to yourself.
+Error-GiftCreative: You cant send gifts in creative gamemode!
+Error-NotFriend: <player> is not your friend or you didnt type name correctly.
+Error-InvFullSender: <player> inventory is full, cannot send gift!
+Error-InvFullTarget: <player> tried to send you gift, but your inventory is full :(
+Error-NoItem: You need to hold item in your hand before trying to send gift!
+Error-NoFriends: 'You dont have any friends :( '
+Error-NoFriendsOnline: 'You dont have any friends online :( '
+Error-NoInvites: 'You dont have friend invites or you tried to add wrong player :( '
+Error-NoPermission: No Permission.
+Error-TpCooldown: You cant teleport for another <time> seconds.
+Error-GiftCooldown: You cant send another gift for <time> seconds.
+Error-PlayerOffline: <player> is offline.
+Error-AlreadyInvited: You have already send invite to <player> !
+Error-AlreadyFriends: You are already friends with <player> !
+Error-InvitesDisabled: <player> has disabled incoming friend invites.
+Error-GiftDisabled: <player> is not accepting friend gifts.
+Error-TPDisabled: <player> is not accepting teleport requests.
+Error-Blocked-Region: Blocked region! You can not use this feature while you or your friend is inside blocked region.
+Error-TP-WorldBlock-Sender: Friend teleport is disabled in this world.
+Error-TP-WorldBlock-Target: Teleport canceled! <player> is at world '<world>' where friend teleport feature is disabled!
+Error-Gift-WorldBlock-Sender: Sending friend gift is disabled in this world.
+Error-Gift-WorldBlock-Target: Gift sending canceled! <player> is at world '<world>' where friend gift feature is disabled!
+Error-ChestNear: You must be at least 8 blocks away from chest before teleport to friend.
+Error-Gift-Radius: You must be within <radius> blocks from your friend to send gift.
+Help-File:
+- blf list:list all your friends.
+- blf online:list all your online friends.
+- blf invite (player):Invite player as your friend.
+- blf add:Accept friend invite.
+- blf remove (player):Remove someone from your friend list.
+- blf tp (player):Teleport to your friend.
+- blf tp/gift/invite:Enable/disable feature, if you use /blf tp then players cannot use that command to you.
+- blf gift (player):Send gift to you player, first hold item in your hand then use command. Warning; This will send ALL the items that you are holding, remember to split item stacks if you wish to send less items.

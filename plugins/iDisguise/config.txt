@@ -1,0 +1,24 @@
+# If set to true the disguises will be saved when the plugin is disabled
+save-disguises: true
+# If set to true every disguised player has his original name above his head
+show-name-while-disguised: false
+# Here you must put the worlds where disguising should be allowed
+permitted-worlds: {"world","world_nether","world_the_end"}
+# If set to true players are undisguise when they hit another player
+undisguise-on-hit-other: false
+# If set to true the sound system is enabled, for more information visit http://dev.bukkit.org/bukkit-plugins/idisguise/pages/sound-system/
+sound-system: true
+# If set to true players are undisguise when they are hit by a projectile (e.g. arrow, snowball)
+undisguise-on-projectile-hit: false
+# If set to false disguised players cannot be damaged
+entity-damage-while-disguised: true
+# Here you must put the language code, for more information visit http://dev.bukkit.org/bukkit-plugins/idisguise/pages/config-languages/
+localization: enUS
+# If set to true players are undisguised when they are hit by another player or mob
+undisguise-on-hit: false
+# If set to true mobs cannot target disguised players
+no-target-while-disguised: false
+# If set to true players must have "iDisguise.undisguise" permission to undisguise
+permission-for-undisguise: false
+# If set to true the plugin automatically checks if an update is available
+check-for-updates: true

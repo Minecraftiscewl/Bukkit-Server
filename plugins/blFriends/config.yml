@@ -1,0 +1,29 @@
+TP-Feature: true
+TP-Cooldown: 9
+Gift-Feature: true
+Gift-Cooldown: 9
+Gift-Radius: 4
+Block-Creative-Gifts: true
+Region-Support: true
+Blocked-Region-SendMessage: false
+DoubleXP-Enable: true
+DoubleXP-Radius: 12
+DoubleXP-Amount: 4
+Block-Creative-DoubleXP: true
+Blocked-Creative-DXP-SendMessage: false
+BlockBonusXP-Enable: true
+BlockBonusXP-Radius: 2
+BlockBonusXP-Amount: 4
+FriendLimit-Enable: true
+FriendLimit-Amount: 1
+FriendChat-Feature: true
+FriendChat-Permissions: false
+FriendChatOP: false
+Check-StableUpdates: true
+Chest-TpFix: false
+World-Blocked-Features:
+- world:pvp
+- world_nether:gift
+- world_nether:tp
+-locked-Regions-Features:
+- world:test:dxp
