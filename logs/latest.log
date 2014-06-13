@@ -223,3 +223,68 @@
 [00:50:37] [Server thread/INFO]: Minecraftiscewl left the game.
 [00:50:47] [Server thread/INFO]: CONSOLE: Forcing save..[m
 [00:50:47] [Server thread/INFO]: CONSOLE: Save complete.[m
+[01:31:18] [Server thread/INFO]: CONSOLE: Stopping the server..[m
+[01:31:18] [Server thread/INFO]: Stopping server
+[01:31:18] [Server thread/INFO]: [EchoPet] Disabling EchoPet v2.3.3-b408
+[01:31:18] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v2.5-b675
+[01:31:18] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[01:31:18] [Server thread/INFO]: [blFriends] Disabling blFriends v0.9.7c
+[01:31:18] [Server thread/INFO]: [Multiverse-SignPortals] Disabling Multiverse-SignPortals v2.5-b665
+[01:31:18] [Server thread/INFO]: [Multiverse-SignPortals] - Disabled
+[01:31:18] [Server thread/INFO]: [HeavySpleef] Disabling HeavySpleef v1.5.1
+[01:31:18] [Server thread/INFO]: [HeavySpleef] HeavySpleef disabled!
+[01:31:18] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v2.5-b699
+[01:31:18] [Server thread/INFO]: [ServerSigns] Disabling ServerSigns v3.0.0
+[01:31:18] [Server thread/INFO]: [ServerSigns] ServerSigns is now disabled.
+[01:31:18] [ServerSignsQueue/WARN]: ServerSigns Queue thread [ServerSignsQueue] has been stopped
+[01:31:18] [Server thread/INFO]: [ApexPads] Disabling ApexPads v1
+[01:31:18] [Server thread/INFO]: [LightSwitch] Disabling LightSwitch v1
+[01:31:18] [Server thread/INFO]: [LightSwitch] LightSwitch Has Been Disabled
+[01:31:18] [Server thread/INFO]: [KillAllMobs] Disabling KillAllMobs v1.2
+[01:31:18] [Server thread/INFO]: [KillAllMobs] KillAllMobs has been disabled!
+[01:31:18] [Server thread/INFO]: [iDisguise] Disabling iDisguise v3.0.4
+[01:31:18] [Server thread/INFO]: [iDisguise] iDisguise v3.0.4 disabled!
+[01:31:18] [Server thread/INFO]: [FakeLogin] Disabling FakeLogin v2.3
+[01:31:18] [Server thread/INFO]: FakeLogin Has Been Disabled!
+[01:31:18] [Server thread/INFO]: [AnyEnchant] Disabling AnyEnchant v1
+[01:31:18] [Server thread/INFO]: [AnyEnchant] AnyEnchant Has Been Disabled!
+[01:31:18] [Server thread/INFO]: [ApexStacker] Disabling ApexStacker v1
+[01:31:18] [Server thread/INFO]: [ApexStacker] ApexStacker Has Been Disabled!
+[01:31:18] [Server thread/INFO]: [PetMenu] Disabling PetMenu v1
+[01:31:18] [Server thread/INFO]: [PerWorldPlugins] Disabling PerWorldPlugins v1.2.3
+[01:31:18] [Server thread/INFO]: [MinigamesParty] Disabling MinigamesParty v1.5.4
+[01:31:18] [Server thread/INFO]: [Marriage] Disabling Marriage v1.2.5
+[01:31:18] [Server thread/INFO]: [ApexDJ] Disabling ApexDJ v1
+[01:31:18] [Server thread/INFO]: [ChatPerWorld] Disabling ChatPerWorld v1.3
+[01:31:18] [Server thread/INFO]: [PluginHide] Disabling PluginHide v1
+[01:31:18] [Server thread/INFO]: [PluginHide] PluginHide Has Been Disabled!
+[01:31:18] [Server thread/INFO]: [SpeedLeap] Disabling SpeedLeap v1
+[01:31:18] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v5.9
+[01:31:18] [Server thread/INFO]: [BarAPI] Disabling BarAPI v3.1
+[01:31:18] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5-b678
+[01:31:18] [Server thread/INFO]: [PlayerInteract] Disabling PlayerInteract v1
+[01:31:18] [Server thread/INFO]: [PlayerInteract] PlayerInteract Has Been Disabled!
+[01:31:18] [Server thread/INFO]: [EmptyWorldGenerator] Disabling EmptyWorldGenerator v1.4
+[01:31:18] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.21.4
+[01:31:18] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[01:31:18] [Server thread/INFO]: [Vault][Permission] PermissionsEx un-hooked.
+[01:31:18] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat un-hooked.
+[01:31:18] [Server thread/INFO]: [PlotMe] Disabling PlotMe v0.13e
+[01:31:18] [Server thread/INFO]: [ApexInvis] Disabling ApexInvis v1
+[01:31:18] [Server thread/INFO]: [Vault] Disabling Vault v1.2.31-b411
+[01:31:18] [Server thread/INFO]: [MyItems] Disabling MyItems v1.7
+[01:31:18] [Server thread/INFO]: [ApexCoins] Disabling ApexCoins v1
+[01:31:18] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v5.6.1
+[01:31:18] [Server thread/INFO]: Saving players
+[01:31:18] [Server thread/INFO]: Saving worlds
+[01:31:18] [Server thread/INFO]: Saving chunks for level 'hub'/Overworld
+[01:31:18] [Server thread/INFO]: Saving chunks for level 'hub_nether'/Nether
+[01:31:18] [Server thread/INFO]: Saving chunks for level 'hub_the_end'/The End
+[01:31:18] [Server thread/INFO]: Saving chunks for level 'parkour'/Overworld
+[01:31:18] [Server thread/INFO]: Saving chunks for level 'SuperRecraftedBros'/Overworld
+[01:31:18] [Server thread/INFO]: Saving chunks for level 'SpeedLeap'/Overworld
+[01:31:18] [Server thread/INFO]: Saving chunks for level 'PvP-hub'/Overworld
+[01:31:18] [Thread-4/INFO]: Stopping server
+[01:31:18] [Thread-4/INFO]: Saving players
+[01:31:18] [Thread-4/INFO]: Saving worlds
+[01:31:18] [Thread-4/INFO]: Saving chunks for level 'hub'/Overworld
