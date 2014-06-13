@@ -3,3 +3,13 @@ groups:
     default: true
     permissions:
     - modifyworld.*
+  say:
+    default: true
+    permissions:
+    - bukkit.command.say
+users:
+  36c84ed1-708a-4fc1-b31e-031bf1511de6:
+    group:
+    - say
+    options:
+      name: Minecraftiscewl

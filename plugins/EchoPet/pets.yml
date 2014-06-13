@@ -5,9 +5,3 @@ autosave:
       name: Ocelot Pet
       data:
         baby: true
-  36c84ed1-708a-4fc1-b31e-031bf1511de6:
-    pet:
-      type: SLIME
-      name: Slime Pet
-      data:
-        large: true
