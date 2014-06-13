@@ -1,0 +1,41 @@
+---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 6/12/14 7:07 PM
+Description: Exception in server tick loop
+
+java.lang.NullPointerException: Exception in server tick loop
+	at net.minecraft.server.v1_7_R2.DedicatedServer.ax(DedicatedServer.java:282)
+	at net.minecraft.server.v1_7_R2.DedicatedServer.a(DedicatedServer.java:228)
+	at net.minecraft.server.v1_7_R2.MinecraftServer.run(MinecraftServer.java:467)
+	at net.minecraft.server.v1_7_R2.ThreadServerApplication.run(SourceFile:618)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.5
+	Operating System: Windows 8 (x86) version 6.2
+	Java Version: 1.7.0_55, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) Client VM (mixed mode), Oracle Corporation
+	Memory: 1035201944 bytes (987 MB) / 1104871424 bytes (1053 MB) up to 1104871424 bytes (1053 MB)
+	JVM Flags: 2 total; -Xmx1090M -Xms1090M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	CraftBukkit Information: 
+   Running: 
+   Failed to handle CraftCrashReport:
+java.lang.NullPointerException
+	at org.bukkit.Bukkit.getName(Bukkit.java:74)
+	at org.bukkit.craftbukkit.v1_7_R2.CraftCrashReport.call(CraftCrashReport.java:20)
+	at net.minecraft.server.v1_7_R2.CrashReportSystemDetails.a(SourceFile:74)
+	at net.minecraft.server.v1_7_R2.CrashReport.h(CrashReport.java:45)
+	at net.minecraft.server.v1_7_R2.CrashReport.<init>(CrashReport.java:33)
+	at net.minecraft.server.v1_7_R2.MinecraftServer.run(MinecraftServer.java:476)
+	at net.minecraft.server.v1_7_R2.ThreadServerApplication.run(SourceFile:618)
+
+	Profiler Position: N/A (disabled)
+	Is Modded: ~~ERROR~~ NullPointerException: null
+	Type: Dedicated Server (map_server.txt)

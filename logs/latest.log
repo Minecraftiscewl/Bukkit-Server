@@ -1,11 +1,11 @@
-[17:33:34] [Server thread/INFO]: Starting minecraft server version 1.7.5
-[17:33:34] [Server thread/INFO]: Loading properties
-[17:33:34] [Server thread/INFO]: Default game type: SURVIVAL
-[17:33:34] [Server thread/INFO]: Generating keypair
-[17:33:34] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:33:35] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks (MC: 1.7.5) (Implementing API version 1.7.5-R0.1-SNAPSHOT)
-[17:33:35] [Server thread/ERROR]: Ambiguous plugin name `PlayerInteract' for files `plugins\PlayerInteract.jar' and `plugins\ApexInteract.jar' in `plugins'
-[17:33:35] [Server thread/ERROR]: Could not load 'plugins\DisguiseCraft.jar' in folder 'plugins'
+[20:04:49] [Server thread/INFO]: Starting minecraft server version 1.7.5
+[20:04:49] [Server thread/INFO]: Loading properties
+[20:04:49] [Server thread/INFO]: Default game type: SURVIVAL
+[20:04:49] [Server thread/INFO]: Generating keypair
+[20:04:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:04:49] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks (MC: 1.7.5) (Implementing API version 1.7.5-R0.1-SNAPSHOT)
+[20:04:50] [Server thread/ERROR]: Ambiguous plugin name `PlayerInteract' for files `plugins\PlayerInteract.jar' and `plugins\ApexInteract.jar' in `plugins'
+[20:04:50] [Server thread/ERROR]: Could not load 'plugins\DisguiseCraft.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/minecraft/server/v1_6_R3/Packet
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:328) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
@@ -33,176 +33,622 @@ Caused by: java.lang.ClassNotFoundException: net.minecraft.server.v1_6_R3.Packet
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:40) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
 	... 9 more
-[17:33:35] [Server thread/INFO]: DataSourcePool [TheSurvivalGames] autoCommit[false] transIsolation[SERIALIZABLE] min[2] max[20]
-[17:33:35] [Server thread/INFO]: SubClassFactory parent ClassLoader [org.bukkit.plugin.java.PluginClassLoader]
-[17:33:35] [Thread-8/INFO]: ----- Bukkit Auto Updater -----
-[17:33:35] [Thread-8/INFO]: It appears that you're running a Development Build, when you've specified in bukkit.yml that you prefer to run Recommended Builds.
-[17:33:35] [Thread-8/INFO]: If you would like to be kept informed about new Development Build releases, it is recommended that you change 'preferred-channel' in your bukkit.yml to 'dev'.
-[17:33:35] [Thread-8/INFO]: With that set, you will be told whenever a new version is available for download, so that you can always keep up to date and secure with the latest fixes.
-[17:33:35] [Thread-8/INFO]: If you would like to disable this warning, simply set 'suggest-channels' to false in bukkit.yml.
-[17:33:35] [Thread-8/INFO]: ----- ------------------- -----
-[17:33:36] [Server thread/INFO]: Entities enhanced[0] subclassed[1]
-[17:33:36] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v5.6.1
-[17:33:36] [Server thread/INFO]: [ApexCoins] Loading ApexCoins v1
-[17:33:36] [Server thread/INFO]: [MyItems] Loading MyItems v1.7
-[17:33:36] [Server thread/INFO]: [Vault] Loading Vault v1.2.31-b411
-[17:33:36] [Server thread/INFO]: [ApexInvis] Loading ApexInvis v1
-[17:33:36] [Server thread/INFO]: [EmptyWorldGenerator] Loading EmptyWorldGenerator v1.4
-[17:33:36] [Server thread/INFO]: [PlayerInteract] Loading PlayerInteract v1
-[17:33:36] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.21.4
-[17:33:36] [Server thread/INFO]: [PlotMe] Loading PlotMe v0.13e
-[17:33:36] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v5.9
-[17:33:36] [Server thread/INFO]: [PluginHide] Loading PluginHide v1
-[17:33:36] [Server thread/INFO]: [SurvivalGames] Loading SurvivalGames v0.5.8.54
-[17:33:36] [Server thread/INFO]: [ChatPerWorld] Loading ChatPerWorld v1.3
-[17:33:36] [Server thread/INFO]: [Marriage] Loading Marriage v1.2.5
-[17:33:36] [Server thread/INFO]: [MinigamesParty] Loading MinigamesParty v1.5.4
-[17:33:36] [Server thread/INFO]: [PetMenu] Loading PetMenu v1
-[17:33:36] [Server thread/INFO]: [iDisguise] Loading iDisguise v3.0.4
-[17:33:36] [Server thread/INFO]: [AnyEnchant] Loading AnyEnchant v1
-[17:33:36] [Server thread/INFO]: [KillAllMobs] Loading KillAllMobs v1.2
-[17:33:36] [Server thread/INFO]: [LightSwitch] Loading LightSwitch v1
-[17:33:36] [Server thread/INFO]: [ApexPads] Loading ApexPads v1
-[17:33:36] [Server thread/INFO]: [TheSurvivalGames] Loading TheSurvivalGames v1.0.0
-[17:33:36] [Server thread/INFO]: [blFriends] Loading blFriends v0.9.7c
-[17:33:36] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b678
-[17:33:36] [Server thread/INFO]: [EchoPet] Loading EchoPet v2.3.3-b408
-[17:33:36] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v2.5-b699
-[17:33:36] [Server thread/INFO]: [HeavySpleef] Loading HeavySpleef v1.5.1
-[17:33:36] [Server thread/INFO]: [Multiverse-SignPortals] Loading Multiverse-SignPortals v2.5-b665
-[17:33:36] [Server thread/INFO]: [Multiverse-NetherPortals] Loading Multiverse-NetherPortals v2.5-b675
-[17:33:36] [Server thread/INFO]: [Vault] Enabling Vault v1.2.31-b411
-[17:33:36] [Server thread/INFO]: [Vault] [Vault][Permission] PermissionsEx found: Waiting
-[17:33:36] [Server thread/INFO]: [Vault] [Vault][Permission] SuperPermissions loaded as backup permission system.
-[17:33:36] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx found: Waiting
-[17:33:36] [Server thread/INFO]: [Vault] [Vault] Enabled Version 1.2.31-b411
-[17:33:36] [Server thread/INFO]: [EmptyWorldGenerator] Enabling EmptyWorldGenerator v1.4
-[17:33:36] [Server thread/INFO]: [EmptyWorldGenerator] EmptyWorldGenerator has been enabled
-[17:33:36] [Server thread/INFO]: [PlotMe] Enabling PlotMe v0.13e
-[17:33:36] [Server thread/INFO]: PlotMe 4 plots loaded
-[17:33:36] [Server thread/INFO]: Preparing level "false"
-[17:33:36] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1324547962865318020)
-[17:33:37] [Server thread/INFO]: Preparing start region for level 1 (Seed: -425921682864768401)
-[17:33:38] [Server thread/INFO]: Preparing start region for level 2 (Seed: -425921682864768401)
-[17:33:38] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v5.6.1
-[17:33:38] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[17:33:38] [Server thread/INFO]: [ApexCoins] Enabling ApexCoins v1
-[17:33:38] [Server thread/INFO]: [MyItems] Enabling MyItems v1.7
-[17:33:38] [Server thread/INFO]: [MyItems] Loaded items:
-[17:33:38] [Server thread/INFO]: [MyItems] - demo
-[17:33:38] [Server thread/INFO]: [ApexInvis] Enabling ApexInvis v1
-[17:33:38] [Server thread/INFO]: [PlayerInteract] Enabling PlayerInteract v1
-[17:33:38] [Server thread/INFO]: [PlayerInteract] PlayerInteract Has Been Enabled!
-[17:33:38] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.21.4
-[17:33:38] [Server thread/INFO]: [PermissionsEx] Initializing file backend
-[17:33:38] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
-[17:33:38] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
-[17:33:38] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
-[17:33:38] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
-[17:33:38] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v5.9
-[17:33:38] [Server thread/INFO]: [WorldGuard] (hub) TNT ignition is PERMITTED.
-[17:33:38] [Server thread/INFO]: [WorldGuard] (hub) Lighters are PERMITTED.
-[17:33:38] [Server thread/INFO]: [WorldGuard] (hub) Lava fire is blocked.
-[17:33:38] [Server thread/INFO]: [WorldGuard] (hub) Fire spread is UNRESTRICTED.
-[17:33:38] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'hub'
-[17:33:38] [Server thread/INFO]: [WorldGuard] (hub_nether) TNT ignition is PERMITTED.
-[17:33:38] [Server thread/INFO]: [WorldGuard] (hub_nether) Lighters are PERMITTED.
-[17:33:38] [Server thread/INFO]: [WorldGuard] (hub_nether) Lava fire is blocked.
-[17:33:38] [Server thread/INFO]: [WorldGuard] (hub_nether) Fire spread is UNRESTRICTED.
-[17:33:38] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'hub_nether'
-[17:33:38] [Server thread/INFO]: [WorldGuard] (hub_the_end) TNT ignition is PERMITTED.
-[17:33:38] [Server thread/INFO]: [WorldGuard] (hub_the_end) Lighters are PERMITTED.
-[17:33:38] [Server thread/INFO]: [WorldGuard] (hub_the_end) Lava fire is blocked.
-[17:33:38] [Server thread/INFO]: [WorldGuard] (hub_the_end) Fire spread is UNRESTRICTED.
-[17:33:38] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'hub_the_end'
-[17:33:38] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'hub'
-[17:33:38] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'hub_nether'
-[17:33:38] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'hub_the_end'
-[17:33:38] [Server thread/INFO]: [PluginHide] Enabling PluginHide v1
-[17:33:38] [Server thread/INFO]: [PluginHide] PluginHide Has Been Enabled!
-[17:33:38] [Server thread/INFO]: [SurvivalGames] Enabling SurvivalGames v0.5.8.54
-[17:33:38] [Server thread/INFO]: METRICS STARTING
-[17:33:38] [Server thread/INFO]: [ChatPerWorld] Enabling ChatPerWorld v1.3
-[17:33:38] [Server thread/INFO]: [Marriage] Enabling Marriage v1.2.5
-[17:33:38] [Server thread/ERROR]: [Marriage] Marriage is not compatible with the version of minecraft you are using!
-[17:33:38] [Server thread/ERROR]: Marriage kissing will be disabled!
-[17:33:38] [Server thread/INFO]: [MinigamesParty] Enabling MinigamesParty v1.5.4
-[17:33:38] [Server thread/INFO]: [0;34;1mMinigamesParty is running on v1_7_R2.[m
-[17:33:38] [Server thread/INFO]: [PetMenu] Enabling PetMenu v1
-[17:33:38] [Server thread/INFO]: [iDisguise] Enabling iDisguise v3.0.4
-[17:33:38] [Server thread/INFO]: [iDisguise] iDisguise v3.0.4 enabled!
-[17:33:38] [Server thread/INFO]: [AnyEnchant] Enabling AnyEnchant v1
-[17:33:38] [Server thread/INFO]: [AnyEnchant] AnyEnchant Has Been Enabled!
-[17:33:38] [Server thread/INFO]: [KillAllMobs] Enabling KillAllMobs v1.2
-[17:33:38] [Server thread/INFO]: [KillAllMobs] KillAllMobs has been enabled!
-[17:33:38] [Server thread/INFO]: [LightSwitch] Enabling LightSwitch v1
-[17:33:38] [Server thread/INFO]: [LightSwitch] LightSwitch Has Been Enabled
-[17:33:38] [Server thread/INFO]: [ApexPads] Enabling ApexPads v1
-[17:33:38] [Server thread/INFO]: [TheSurvivalGames] Enabling TheSurvivalGames v1.0.0
-[17:33:38] [Server thread/INFO]: Fixed Executor Starting
-[17:33:38] [Server thread/WARN]: [TheSurvivalGames] Could not save signs.yml to plugins\TheSurvivalGames\signs.yml because signs.yml already exists.
-[17:33:39] [Server thread/ERROR]: [i18n] Fallback enUS loaded
-[17:33:39] [Server thread/INFO]: [i18n] enUS English language file loaded!
-[17:33:39] [Server thread/INFO]: Attempting to read inventory string of Archer. If it errors here, its a problem with this kit.
-[17:33:39] [Server thread/INFO]: Attempting to read inventory string of Crafter. If it errors here, its a problem with this kit.
-[17:33:39] [Server thread/INFO]: Attempting to read inventory string of Enchanter. If it errors here, its a problem with this kit.
-[17:33:39] [Server thread/INFO]: Attempting to read inventory string of Knight. If it errors here, its a problem with this kit.
-[17:33:39] [Server thread/INFO]: Attempting to read inventory string of Notch. If it errors here, its a problem with this kit.
-[17:33:39] [Server thread/INFO]: Attempting to read inventory string of Pacman. If it errors here, its a problem with this kit.
-[17:33:39] [Server thread/INFO]: Attempting to read inventory string of Pig. If it errors here, its a problem with this kit.
-[17:33:39] [Server thread/INFO]: Attempting to read inventory string of Skeleton. If it errors here, its a problem with this kit.
-[17:33:39] [Server thread/INFO]: Attempting to read inventory string of Toxicologist. If it errors here, its a problem with this kit.
-[17:33:39] [Server thread/INFO]: Attempting to read inventory string of Zelda. If it errors here, its a problem with this kit.
-[17:33:39] [Server thread/INFO]: Sorted: [[Kit - Name: Archer Type: Classic], [Kit - Name: Crafter Type: Utility], [Kit - Name: Enchanter Type: Utility], [Kit - Name: Knight Type: Classic], [Kit - Name: Notch Type: Mojangster], [Kit - Name: Pacman Type: Game], [Kit - Name: Pig Type: Mob], [Kit - Name: Skeleton Type: Mob], [Kit - Name: Toxicologist Type: Classic], [Kit - Name: Zelda Type: Game]]
-[17:33:39] [Server thread/INFO]: Into: [[Kit - Name: Archer Type: Classic], [Kit - Name: Knight Type: Classic], [Kit - Name: Toxicologist Type: Classic], [Kit - Name: Pacman Type: Game], [Kit - Name: Zelda Type: Game], [Kit - Name: Pig Type: Mob], [Kit - Name: Skeleton Type: Mob], [Kit - Name: Notch Type: Mojangster], [Kit - Name: Crafter Type: Utility], [Kit - Name: Enchanter Type: Utility]]
-[17:33:39] [Server thread/WARN]: [TheSurvivalGames] Could not save ArenaManager.yml to plugins\TheSurvivalGames\ArenaManager.yml because ArenaManager.yml already exists.
-[17:33:39] [Server thread/INFO]: Websocket server started on port: 8887
-[17:33:39] [AnalyticsBackgroundThread/INFO]: AnalyticsBackgroundThread started
-[17:33:39] [Server thread/INFO]: [TheSurvivalGames] has been enabled!
-[17:33:39] [Server thread/INFO]: [TheSurvivalGames] is a community project, join at http://dev.bukkit.org/bukkit-plugins/the-survival-games/
-[17:33:39] [Server thread/INFO]: [blFriends] Enabling blFriends v0.9.7c
-[17:33:39] [Server thread/INFO]: [blFriends] Loading DoubleXP feature with region Support
-[17:33:39] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b678
-[17:33:39] [Server thread/INFO]: [Multiverse-Core] [AllPay] - Version 13.0 - using only an item based economy for Multiverse-Core v2.5-b678
-[17:33:39] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
-[17:33:39] [Thread-14/WARN]: [PermissionsEx] An update to PermissionsEx version 1.22 is available to download from http://dev.bukkit.org/bukkit-plugins/permissionsex/. Please review the changes and update as soon as possible!
-[17:33:39] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b678 (API v18) Enabled - By Rigby, fernferret, lithium3141 and main--
-[17:33:39] [Server thread/INFO]: [EchoPet] Enabling EchoPet v2.3.3-b408
-[17:33:39] [Server thread/INFO]: [EchoPet] [WorldGuard] Successfully hooked
-[17:33:40] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v2.5-b699
-[17:33:40] [Server thread/INFO]: [Multiverse-Portals] - Version 2.5-b699 Enabled - By Rigby and fernferret
-[17:33:41] [Server thread/WARN]: [MVPLogging] Failed Parsing World for: Real-Spawn (World Error, World did not exist or was not imported into Multiverse-Core!)
-[17:33:41] [Server thread/WARN]: [MVPLogging] Portal Real-Spawn has an invalid LOCATION!
-[17:33:41] [Server thread/WARN]: [MVPLogging] Portal 'Real-Spawn' not loaded due to invalid location!
-[17:33:41] [Server thread/WARN]: [MVPLogging] Failed Parsing World for: Hub (World Error, World did not exist or was not imported into Multiverse-Core!)
-[17:33:41] [Server thread/WARN]: [MVPLogging] Portal Hub has an invalid LOCATION!
-[17:33:41] [Server thread/WARN]: [MVPLogging] Portal 'Hub' not loaded due to invalid location!
-[17:33:41] [Server thread/WARN]: [MVPLogging] Failed Parsing World for: Marp (World Error, World did not exist or was not imported into Multiverse-Core!)
-[17:33:41] [Server thread/WARN]: [MVPLogging] Portal Marp has an invalid LOCATION!
-[17:33:41] [Server thread/WARN]: [MVPLogging] Portal 'Marp' not loaded due to invalid location!
-[17:33:41] [Server thread/WARN]: [MVPLogging] Failed Parsing World for: Derp (World Error, World did not exist or was not imported into Multiverse-Core!)
-[17:33:41] [Server thread/WARN]: [MVPLogging] Portal Derp has an invalid LOCATION!
-[17:33:41] [Server thread/WARN]: [MVPLogging] Portal 'Derp' not loaded due to invalid location!
-[17:33:41] [Server thread/INFO]: [MVPLogging] 5 - Portals(s) loaded
-[17:33:41] [Server thread/WARN]: [Multiverse-Core] Portal Creative has an invalid DESTINATION!
-[17:33:41] [Server thread/INFO]: [HeavySpleef] Enabling HeavySpleef v1.5.1
-[17:33:41] [Server thread/INFO]: [HeavySpleef] Loaded 0 games!
-[17:33:41] [Server thread/INFO]: [HeavySpleef] HeavySpleef v1.5.1 activated!
-[17:33:41] [Server thread/INFO]: [Multiverse-SignPortals] Enabling Multiverse-SignPortals v2.5-b665
-[17:33:41] [Server thread/INFO]: [Multiverse-SignPortals 2.5-b665]  Enabled - By Rigby and fernferret
-[17:33:41] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v2.5-b675
-[17:33:41] [Server thread/INFO]: [Multiverse-NetherPortals] - Version 2.5-b675 Enabled - By Rigby and fernferret
-[17:33:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:33:42] [Server thread/INFO]: Done (5.484s)! For help, type "help" or "?"
-[17:33:42] [pool-3-thread-3/INFO]: Checking if conversion to UUID needed...
-[17:33:42] [pool-3-thread-3/INFO]: Verifying if database needs conversion
-[17:33:42] [pool-3-thread-3/INFO]: Starting to convert plots to UUID
-[17:33:42] [pool-3-thread-3/INFO]: Fetching 0 UUIDs from Mojang servers...
-[17:33:42] [pool-3-thread-3/INFO]: Finished fetching 0 UUIDs. Starting database update.
-[17:33:42] [pool-3-thread-3/INFO]: 0 players converted
-[17:33:42] [pool-3-thread-3/INFO]: Plot conversion finished
-[17:33:42] [pool-3-thread-14/INFO]: [Vault] Checking for Updates:
-[17:33:42] [pool-3-thread-14/WARN]: [Vault] Stable Version: 1.4.1 is out! You are still running version: 1.2.31
-[17:33:42] [pool-3-thread-14/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
-[17:33:42] [pool-3-thread-4/INFO]: [EchoPet] [0;32;1m[INFO] [0;33;22mAn update is available: EchoPet v2.3.3[m
-[17:33:42] [pool-3-thread-4/INFO]: [EchoPet] [0;32;1m[INFO] [0;33;22mType /ecupdate to update.[m
+[20:04:50] [Server thread/INFO]: [GroupManager] Loading GroupManager v2.1.11 (Phoenix)
+[20:04:50] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v5.6.1
+[20:04:50] [Server thread/INFO]: [ApexCoins] Loading ApexCoins v1
+[20:04:50] [Server thread/INFO]: [MyItems] Loading MyItems v1.7
+[20:04:50] [Server thread/INFO]: [Vault] Loading Vault v1.2.31-b411
+[20:04:50] [Server thread/INFO]: [ApexInvis] Loading ApexInvis v1
+[20:04:50] [Server thread/INFO]: [PlotMe] Loading PlotMe v0.13e
+[20:04:50] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.21.4
+[20:04:50] [Server thread/INFO]: [PlayerInteract] Loading PlayerInteract v1
+[20:04:50] [Server thread/INFO]: [EmptyWorldGenerator] Loading EmptyWorldGenerator v1.4
+[20:04:50] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b678
+[20:04:50] [Server thread/INFO]: [BarAPI] Loading BarAPI v3.1
+[20:04:50] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v5.9
+[20:04:50] [Server thread/INFO]: [PluginHide] Loading PluginHide v1
+[20:04:50] [Server thread/INFO]: [ChatPerWorld] Loading ChatPerWorld v1.3
+[20:04:50] [Server thread/INFO]: [ApexDJ] Loading ApexDJ v1
+[20:04:50] [Server thread/INFO]: [Marriage] Loading Marriage v1.2.5
+[20:04:50] [Server thread/INFO]: [MinigamesParty] Loading MinigamesParty v1.5.4
+[20:04:50] [Server thread/INFO]: [PetMenu] Loading PetMenu v1
+[20:04:50] [Server thread/INFO]: [ApexStacker] Loading ApexStacker v1
+[20:04:50] [Server thread/INFO]: [AnyEnchant] Loading AnyEnchant v1
+[20:04:50] [Server thread/INFO]: [FakeLogin] Loading FakeLogin v2.3
+[20:04:50] [Server thread/INFO]: [iDisguise] Loading iDisguise v3.0.4
+[20:04:50] [Server thread/INFO]: [KillAllMobs] Loading KillAllMobs v1.2
+[20:04:50] [Server thread/INFO]: [LightSwitch] Loading LightSwitch v1
+[20:04:50] [Server thread/INFO]: [ApexPads] Loading ApexPads v1
+[20:04:50] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v2.5-b699
+[20:04:50] [Server thread/INFO]: [HeavySpleef] Loading HeavySpleef v1.5.1
+[20:04:50] [Server thread/INFO]: [Multiverse-SignPortals] Loading Multiverse-SignPortals v2.5-b665
+[20:04:50] [Server thread/INFO]: [blFriends] Loading blFriends v0.9.7c
+[20:04:50] [Server thread/INFO]: [Multiverse-NetherPortals] Loading Multiverse-NetherPortals v2.5-b675
+[20:04:50] [Server thread/INFO]: [EchoPet] Loading EchoPet v2.3.3-b408
+[20:04:50] [Server thread/INFO]: [Vault] Enabling Vault v1.2.31-b411
+[20:04:50] [Server thread/INFO]: [Vault] [Vault][Permission] PermissionsEx found: Waiting
+[20:04:50] [Server thread/INFO]: [Vault] [Vault][Permission] GroupManager found: Waiting
+[20:04:50] [Server thread/INFO]: [Vault] [Vault][Permission] SuperPermissions loaded as backup permission system.
+[20:04:50] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx found: Waiting
+[20:04:50] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager found: Waiting
+[20:04:50] [Server thread/INFO]: [Vault] [Vault] Enabled Version 1.2.31-b411
+[20:04:50] [Server thread/INFO]: [PlotMe] Enabling PlotMe v0.13e
+[20:04:50] [Thread-8/INFO]: ----- Bukkit Auto Updater -----
+[20:04:50] [Thread-8/INFO]: It appears that you're running a Development Build, when you've specified in bukkit.yml that you prefer to run Recommended Builds.
+[20:04:50] [Thread-8/INFO]: If you would like to be kept informed about new Development Build releases, it is recommended that you change 'preferred-channel' in your bukkit.yml to 'dev'.
+[20:04:50] [Thread-8/INFO]: With that set, you will be told whenever a new version is available for download, so that you can always keep up to date and secure with the latest fixes.
+[20:04:50] [Thread-8/INFO]: If you would like to disable this warning, simply set 'suggest-channels' to false in bukkit.yml.
+[20:04:50] [Thread-8/INFO]: ----- ------------------- -----
+[20:04:50] [Server thread/INFO]: PlotMe 5 plots loaded
+[20:04:50] [Server thread/INFO]: [EmptyWorldGenerator] Enabling EmptyWorldGenerator v1.4
+[20:04:50] [Server thread/INFO]: [EmptyWorldGenerator] EmptyWorldGenerator has been enabled
+[20:04:50] [Server thread/INFO]: Preparing level "false"
+[20:04:50] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1324547962865318020)
+[20:04:51] [Server thread/INFO]: Preparing start region for level 1 (Seed: -425921682864768401)
+[20:04:52] [Server thread/INFO]: Preparing start region for level 2 (Seed: -425921682864768401)
+[20:04:52] [Server thread/INFO]: [GroupManager] Enabling GroupManager v2.1.11 (Phoenix)
+[20:04:52] [Server thread/INFO]: GroupManager - INFO - World Found: hub
+[20:04:52] [Server thread/INFO]: GroupManager - INFO - World Found: world
+[20:04:52] [Server thread/INFO]: GroupManager - INFO - Superperms support enabled.
+[20:04:52] [Server thread/INFO]: GroupManager - INFO - Scheduled Data Saving is set for every 10 minutes!
+[20:04:52] [Server thread/INFO]: GroupManager - INFO - Backups will be retained for 24 hours!
+[20:04:52] [Server thread/INFO]: GroupManager version 2.1.11 (Phoenix) is enabled!
+[20:04:52] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
+[20:04:52] [Server thread/INFO]: [Vault][Chat] GroupManager - Chat hooked.
+[20:04:52] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v5.6.1
+[20:04:52] [Server thread/INFO]: WEPIF: GroupManager detected! Using GroupManager for permissions.
+[20:04:52] [Server thread/INFO]: [ApexCoins] Enabling ApexCoins v1
+[20:04:52] [Server thread/INFO]: [MyItems] Enabling MyItems v1.7
+[20:04:52] [Server thread/INFO]: [MyItems] Loaded items:
+[20:04:52] [Server thread/INFO]: [MyItems] - demo
+[20:04:52] [Server thread/INFO]: [ApexInvis] Enabling ApexInvis v1
+[20:04:52] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.21.4
+[20:04:52] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[20:04:52] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[20:04:52] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[20:04:52] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[20:04:52] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[20:04:52] [Server thread/INFO]: [PlayerInteract] Enabling PlayerInteract v1
+[20:04:52] [Server thread/INFO]: [PlayerInteract] PlayerInteract Has Been Enabled!
+[20:04:52] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b678
+[20:04:52] [Server thread/INFO]: [Multiverse-Core] [AllPay] - Version 13.0 - using only an item based economy for Multiverse-Core v2.5-b678
+[20:04:53] [Server thread/INFO]: Preparing start region for level 3 (Seed: 6552340572108070760)
+[20:04:53] [Thread-11/WARN]: [PermissionsEx] An update to PermissionsEx version 1.22 is available to download from http://dev.bukkit.org/bukkit-plugins/permissionsex/. Please review the changes and update as soon as possible!
+[20:04:53] [Server thread/INFO]: Preparing start region for level 4 (Seed: 1542591992132947805)
+[20:04:54] [Server thread/INFO]: Preparing start region for level 5 (Seed: -6453272784025227119)
+[20:04:54] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[20:04:54] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b678 (API v18) Enabled - By Rigby, fernferret, lithium3141 and main--
+[20:04:54] [Server thread/INFO]: [BarAPI] Enabling BarAPI v3.1
+[20:04:54] [Server thread/INFO]: [BarAPI] Loaded
+[20:04:54] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v5.9
+[20:04:54] [Server thread/INFO]: [WorldGuard] (hub) TNT ignition is PERMITTED.
+[20:04:54] [Server thread/INFO]: [WorldGuard] (hub) Lighters are PERMITTED.
+[20:04:54] [Server thread/INFO]: [WorldGuard] (hub) Lava fire is blocked.
+[20:04:54] [Server thread/INFO]: [WorldGuard] (hub) Fire spread is UNRESTRICTED.
+[20:04:54] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'hub'
+[20:04:54] [Server thread/INFO]: [WorldGuard] (hub_nether) TNT ignition is PERMITTED.
+[20:04:54] [Server thread/INFO]: [WorldGuard] (hub_nether) Lighters are PERMITTED.
+[20:04:54] [Server thread/INFO]: [WorldGuard] (hub_nether) Lava fire is blocked.
+[20:04:54] [Server thread/INFO]: [WorldGuard] (hub_nether) Fire spread is UNRESTRICTED.
+[20:04:54] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'hub_nether'
+[20:04:54] [Server thread/INFO]: [WorldGuard] (hub_the_end) TNT ignition is PERMITTED.
+[20:04:54] [Server thread/INFO]: [WorldGuard] (hub_the_end) Lighters are PERMITTED.
+[20:04:54] [Server thread/INFO]: [WorldGuard] (hub_the_end) Lava fire is blocked.
+[20:04:54] [Server thread/INFO]: [WorldGuard] (hub_the_end) Fire spread is UNRESTRICTED.
+[20:04:54] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'hub_the_end'
+[20:04:54] [Server thread/INFO]: [WorldGuard] (parkour) TNT ignition is PERMITTED.
+[20:04:54] [Server thread/INFO]: [WorldGuard] (parkour) Lighters are PERMITTED.
+[20:04:54] [Server thread/INFO]: [WorldGuard] (parkour) Lava fire is blocked.
+[20:04:54] [Server thread/INFO]: [WorldGuard] (parkour) Fire spread is UNRESTRICTED.
+[20:04:54] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'parkour'
+[20:04:54] [Server thread/INFO]: [WorldGuard] (SuperRecraftedBros) TNT ignition is PERMITTED.
+[20:04:54] [Server thread/INFO]: [WorldGuard] (SuperRecraftedBros) Lighters are PERMITTED.
+[20:04:54] [Server thread/INFO]: [WorldGuard] (SuperRecraftedBros) Lava fire is blocked.
+[20:04:54] [Server thread/INFO]: [WorldGuard] (SuperRecraftedBros) Fire spread is UNRESTRICTED.
+[20:04:54] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'SuperRecraftedBros'
+[20:04:54] [Server thread/INFO]: [WorldGuard] (PvP-hub) TNT ignition is PERMITTED.
+[20:04:54] [Server thread/INFO]: [WorldGuard] (PvP-hub) Lighters are PERMITTED.
+[20:04:54] [Server thread/INFO]: [WorldGuard] (PvP-hub) Lava fire is blocked.
+[20:04:54] [Server thread/INFO]: [WorldGuard] (PvP-hub) Fire spread is UNRESTRICTED.
+[20:04:54] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'PvP-hub'
+[20:04:54] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'hub'
+[20:04:54] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'hub_nether'
+[20:04:54] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'hub_the_end'
+[20:04:54] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'parkour'
+[20:04:54] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'SuperRecraftedBros'
+[20:04:54] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'PvP-hub'
+[20:04:54] [Server thread/INFO]: [PluginHide] Enabling PluginHide v1
+[20:04:54] [Server thread/INFO]: [PluginHide] PluginHide Has Been Enabled!
+[20:04:54] [Server thread/INFO]: [ChatPerWorld] Enabling ChatPerWorld v1.3
+[20:04:54] [Server thread/INFO]: [ApexDJ] Enabling ApexDJ v1
+[20:04:54] [Server thread/INFO]: [Marriage] Enabling Marriage v1.2.5
+[20:04:54] [Server thread/ERROR]: [Marriage] Marriage is not compatible with the version of minecraft you are using!
+[20:04:54] [Server thread/ERROR]: Marriage kissing will be disabled!
+[20:04:54] [Server thread/INFO]: [MinigamesParty] Enabling MinigamesParty v1.5.4
+[20:04:54] [Server thread/INFO]: [0;34;1mMinigamesParty is running on v1_7_R2.[m
+[20:04:54] [Server thread/INFO]: [PetMenu] Enabling PetMenu v1
+[20:04:54] [Server thread/INFO]: [ApexStacker] Enabling ApexStacker v1
+[20:04:54] [Server thread/INFO]: [ApexStacker] ApexStacker Has Been Enabled!
+[20:04:54] [Server thread/INFO]: [AnyEnchant] Enabling AnyEnchant v1
+[20:04:54] [Server thread/INFO]: [AnyEnchant] AnyEnchant Has Been Enabled!
+[20:04:54] [Server thread/INFO]: [FakeLogin] Enabling FakeLogin v2.3
+[20:04:54] [Server thread/INFO]: FakeLogin Version 2.3 Has Been Enabled!
+[20:04:54] [Server thread/INFO]: [iDisguise] Enabling iDisguise v3.0.4
+[20:04:54] [Server thread/INFO]: [iDisguise] iDisguise v3.0.4 enabled!
+[20:04:54] [Server thread/INFO]: [KillAllMobs] Enabling KillAllMobs v1.2
+[20:04:54] [Server thread/INFO]: [KillAllMobs] KillAllMobs has been enabled!
+[20:04:54] [Server thread/INFO]: [LightSwitch] Enabling LightSwitch v1
+[20:04:54] [Server thread/INFO]: [LightSwitch] LightSwitch Has Been Enabled
+[20:04:54] [Server thread/INFO]: [ApexPads] Enabling ApexPads v1
+[20:04:54] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v2.5-b699
+[20:04:54] [Server thread/INFO]: [Multiverse-Portals] - Version 2.5-b699 Enabled - By Rigby and fernferret
+[20:04:55] [Server thread/WARN]: [MVPLogging] Failed Parsing World for: Real-Spawn (World Error, World did not exist or was not imported into Multiverse-Core!)
+[20:04:55] [Server thread/WARN]: [MVPLogging] Portal Real-Spawn has an invalid LOCATION!
+[20:04:55] [Server thread/WARN]: [MVPLogging] Portal 'Real-Spawn' not loaded due to invalid location!
+[20:04:55] [Server thread/WARN]: [MVPLogging] Failed Parsing World for: Hub (World Error, World did not exist or was not imported into Multiverse-Core!)
+[20:04:55] [Server thread/WARN]: [MVPLogging] Portal Hub has an invalid LOCATION!
+[20:04:55] [Server thread/WARN]: [MVPLogging] Portal 'Hub' not loaded due to invalid location!
+[20:04:55] [Server thread/WARN]: [MVPLogging] Failed Parsing World for: Marp (World Error, World did not exist or was not imported into Multiverse-Core!)
+[20:04:55] [Server thread/WARN]: [MVPLogging] Portal Marp has an invalid LOCATION!
+[20:04:55] [Server thread/WARN]: [MVPLogging] Portal 'Marp' not loaded due to invalid location!
+[20:04:55] [Server thread/WARN]: [MVPLogging] Failed Parsing World for: Derp (World Error, World did not exist or was not imported into Multiverse-Core!)
+[20:04:55] [Server thread/WARN]: [MVPLogging] Portal Derp has an invalid LOCATION!
+[20:04:55] [Server thread/WARN]: [MVPLogging] Portal 'Derp' not loaded due to invalid location!
+[20:04:55] [Server thread/INFO]: [MVPLogging] 7 - Portals(s) loaded
+[20:04:55] [Server thread/WARN]: [Multiverse-Core] Portal plotworld1 has an invalid DESTINATION!
+[20:04:55] [Server thread/INFO]: [HeavySpleef] Enabling HeavySpleef v1.5.1
+[20:04:55] [Server thread/INFO]: [HeavySpleef] Loaded 0 games!
+[20:04:55] [Server thread/INFO]: [HeavySpleef] HeavySpleef v1.5.1 activated!
+[20:04:55] [Server thread/INFO]: [Multiverse-SignPortals] Enabling Multiverse-SignPortals v2.5-b665
+[20:04:55] [Server thread/INFO]: [Multiverse-SignPortals 2.5-b665]  Enabled - By Rigby and fernferret
+[20:04:55] [Server thread/INFO]: [blFriends] Enabling blFriends v0.9.7c
+[20:04:55] [Server thread/INFO]: [blFriends] Loading DoubleXP feature with region Support
+[20:04:55] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v2.5-b675
+[20:04:55] [Server thread/INFO]: [Multiverse-NetherPortals] - Version 2.5-b675 Enabled - By Rigby and fernferret
+[20:04:55] [Server thread/INFO]: [EchoPet] Enabling EchoPet v2.3.3-b408
+[20:04:55] [Server thread/INFO]: [EchoPet] [WorldGuard] Successfully hooked
+[20:04:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:04:56] [Server thread/INFO]: Done (5.957s)! For help, type "help" or "?"
+[20:04:56] [pool-3-thread-4/INFO]: Checking if conversion to UUID needed...
+[20:04:56] [pool-3-thread-4/INFO]: Verifying if database needs conversion
+[20:04:56] [pool-3-thread-4/INFO]: Starting to convert plots to UUID
+[20:04:56] [Server thread/INFO]: GroupManager - INFO - Bukkit Permissions Updated!
+[20:04:56] [pool-3-thread-4/INFO]: Fetching 0 UUIDs from Mojang servers...
+[20:04:56] [pool-3-thread-4/INFO]: Finished fetching 0 UUIDs. Starting database update.
+[20:04:56] [pool-3-thread-4/INFO]: 0 players converted
+[20:04:56] [pool-3-thread-4/INFO]: Plot conversion finished
+[20:04:56] [pool-3-thread-15/INFO]: [Vault] Checking for Updates:
+[20:04:56] [pool-3-thread-15/WARN]: [Vault] Stable Version: 1.4.1 is out! You are still running version: 1.2.31
+[20:04:56] [pool-3-thread-15/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+[20:04:56] [pool-3-thread-1/INFO]: [EchoPet] [0;32;1m[INFO] [0;33;22mAn update is available: EchoPet v2.3.3[m
+[20:04:56] [pool-3-thread-1/INFO]: [EchoPet] [0;32;1m[INFO] [0;33;22mType /ecupdate to update.[m
+[20:04:58] [User Authenticator #1/INFO]: UUID of player Boe6Eod7Nty is f8c68a8795b0402695887231d3e43fff
+[20:04:58] [pool-3-thread-2/INFO]: [iDisguise] An update for iDisguise is available: null[m
+[20:04:58] [Server thread/INFO]: Boe6Eod7Nty[/50.50.144.219:64687] logged in with entity id 52 at ([parkour] -105.27889555570113, 60.83646558536973, -3.6900979667864418)
+[20:05:02] [Server thread/INFO]: [WorldEdit] Using inbuilt NmsBlock for this version.
+[20:05:18] [Server thread/INFO]: Boe6Eod7Nty issued server command: //stack 100 w
+[20:05:30] [Server thread/INFO]: Boe6Eod7Nty issued server command: /gamerule doDaylightCycle false
+[20:05:30] [Server thread/INFO]: Boe6Eod7Nty: Game rule doDaylightCycle has been set to: false[m
+[20:05:34] [Server thread/INFO]: Boe6Eod7Nty issued server command: /time set 6000
+[20:05:34] [Server thread/INFO]: Boe6Eod7Nty: Set time to 6000[m
+[20:05:50] [Server thread/INFO]: Boe6Eod7Nty issued server command: /brush cyl grass 4 2
+[20:05:56] [Server thread/INFO]: Boe6Eod7Nty issued server command: /brush cyl grass 6 2
+[20:06:04] [Server thread/INFO]: Boe6Eod7Nty issued server command: /brush cyl grass 5 2
+[20:08:22] [Server thread/INFO]: Boe6Eod7Nty issued server command: /brush smooth
+[20:12:11] [User Authenticator #2/INFO]: UUID of player ItsJemoo is 009b4f9b9af1495aa6d07472260f7254
+[20:12:11] [Server thread/INFO]: ItsJemoo[/172.248.248.0:3478] logged in with entity id 61 at ([parkour] -78.405676173423, 62.0, -20.087544999771332)
+[20:12:16] [Server thread/INFO]: ItsJemoo lost connection: Disconnected
+[20:12:16] [Server thread/INFO]: ItsJemoo left the game.
+[20:12:24] [User Authenticator #3/INFO]: UUID of player ItsJemoo is 009b4f9b9af1495aa6d07472260f7254
+[20:12:24] [Server thread/INFO]: ItsJemoo[/172.248.248.0:3501] logged in with entity id 70 at ([parkour] -72.3754181583725, 64.904149094818, -30.3586165090876)
+[20:12:32] [Netty IO #5/INFO]: [parkour] <ItsJemoo> lag
+[20:12:38] [Server thread/INFO]: Boe6Eod7Nty issued server command: //undo
+[20:12:40] [Server thread/INFO]: ItsJemoo issued server command: /pl
+[20:12:46] [Server thread/INFO]: Boe6Eod7Nty issued server command: //undo
+[20:12:50] [Server thread/INFO]: ItsJemoo issued server command: /plugins
+[20:12:53] [Server thread/INFO]: ItsJemoo issued server command: /plugin
+[20:12:57] [Server thread/INFO]: ItsJemoo issued server command: /plugin
+[20:13:02] [Server thread/INFO]: ItsJemoo issued server command: /pl
+[20:13:05] [Server thread/INFO]: ItsJemoo issued server command: /plugins
+[20:13:14] [Server thread/INFO]: ItsJemoo issued server command: /help
+[20:13:23] [Server thread/INFO]: ItsJemoo issued server command: /help PerWorldPlugin
+[20:13:28] [Server thread/INFO]: ItsJemoo issued server command: /help 2
+[20:13:31] [Server thread/INFO]: ItsJemoo issued server command: /help 3
+[20:13:36] [Server thread/INFO]: ItsJemoo issued server command: /help 4
+[20:14:10] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to PetMenu v1
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:294) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:501) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:486) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at org.bukkit.craftbukkit.v1_7_R2.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:195) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PlayerInteractManager.interact(PlayerInteractManager.java:374) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PlayerConnection.a(PlayerConnection.java:628) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PacketPlayInBlockPlace.a(SourceFile:60) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PacketPlayInBlockPlace.handle(SourceFile:9) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.NetworkManager.a(NetworkManager.java:147) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.ServerConnection.c(SourceFile:134) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.v(MinecraftServer.java:657) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.DedicatedServer.v(DedicatedServer.java:250) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.u(MinecraftServer.java:548) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.run(MinecraftServer.java:459) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.ThreadServerApplication.run(SourceFile:618) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+Caused by: java.lang.NullPointerException
+	at me.ItsJemoo.PetMenu.PetMenu.interact(PetMenu.java:118) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor52.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_55]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_55]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:292) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	... 15 more
+[20:14:10] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to PetMenu v1
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:294) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:501) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:486) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at org.bukkit.craftbukkit.v1_7_R2.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:195) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PlayerInteractManager.interact(PlayerInteractManager.java:374) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PlayerConnection.a(PlayerConnection.java:628) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PacketPlayInBlockPlace.a(SourceFile:60) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PacketPlayInBlockPlace.handle(SourceFile:9) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.NetworkManager.a(NetworkManager.java:147) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.ServerConnection.c(SourceFile:134) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.v(MinecraftServer.java:657) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.DedicatedServer.v(DedicatedServer.java:250) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.u(MinecraftServer.java:548) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.run(MinecraftServer.java:459) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.ThreadServerApplication.run(SourceFile:618) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+Caused by: java.lang.NullPointerException
+	at me.ItsJemoo.PetMenu.PetMenu.interact(PetMenu.java:118) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor52.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_55]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_55]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:292) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	... 15 more
+[20:14:25] [Server thread/INFO]: Boe6Eod7Nty issued server command: //undo
+[20:14:34] [Netty IO #5/INFO]: [parkour] <ItsJemoo> gayboyz
+[20:14:52] [pool-4-thread-1/INFO]: GroupManager - INFO -  Data files refreshed.
+[20:21:23] [Server thread/INFO]: ItsJemoo issued server command: /light on
+[20:21:27] [Server thread/INFO]: Boe6Eod7Nty issued server command: /m
+[20:22:01] [Server thread/INFO]: ItsJemoo issued server command: /light off
+[20:22:06] [Server thread/INFO]: ItsJemoo issued server command: /light on
+[20:22:11] [Server thread/INFO]: ItsJemoo issued server command: /light off
+[20:22:15] [Server thread/INFO]: ItsJemoo issued server command: /light on
+[20:22:16] [Server thread/INFO]: ItsJemoo issued server command: /light on
+[20:22:18] [Server thread/INFO]: ItsJemoo issued server command: /light off
+[20:22:19] [Server thread/INFO]: ItsJemoo issued server command: /light on
+[20:22:21] [Server thread/INFO]: ItsJemoo issued server command: /light off
+[20:22:22] [Server thread/INFO]: ItsJemoo issued server command: /light on
+[20:26:06] [User Authenticator #4/INFO]: UUID of player Minecraftiscewl is 36c84ed1708a4fc1b31e031bf1511de6
+[20:26:06] [Server thread/INFO]: Minecraftiscewl[/127.0.0.1:62180] logged in with entity id 335 at ([parkour] -9.37061126697242, 60.0, -24.421163994021544)
+[20:26:39] [Server thread/INFO]: ItsJemoo issued server command: /d player Minecraftiscewl
+[20:26:49] [Server thread/INFO]: Boe6Eod7Nty issued server command: /d
+[20:26:53] [Server thread/INFO]: Boe6Eod7Nty issued server command: /d player
+[20:26:58] [Server thread/INFO]: ItsJemoo issued server command: /pet ocelot
+[20:27:00] [Server thread/INFO]: Boe6Eod7Nty issued server command: /d player Minecraftiscewl
+[20:27:03] [Server thread/INFO]: ItsJemoo issued server command: /pet name Marp
+[20:27:23] [Server thread/INFO]: Boe6Eod7Nty issued server command: /undisguise
+[20:27:32] [Server thread/INFO]: ItsJemoo issued server command: /gamemode s
+[20:27:32] [Server thread/INFO]: ItsJemoo: Set own game mode to SURVIVAL mode[m
+[20:28:19] [Server thread/INFO]: ItsJemoo issued server command: /mvtp spawn
+[20:28:24] [Server thread/INFO]: Minecraftiscewl issued server command: /pet Wither
+[20:28:24] [Server thread/INFO]: Boe6Eod7Nty issued server command: /pet ocelot;Marp
+[20:28:28] [Server thread/INFO]: ItsJemoo issued server command: /d player ItsJemoo
+[20:28:32] [Server thread/INFO]: ItsJemoo was slain by Minecraftiscewl
+[20:28:34] [Server thread/ERROR]: Could not pass event PlayerRespawnEvent to EchoPet v2.3.3-b408
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:294) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:501) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:486) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PlayerList.moveToWorld(PlayerList.java:473) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PlayerList.moveToWorld(PlayerList.java:412) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PlayerConnection.a(PlayerConnection.java:1138) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PacketPlayInClientCommand.a(SourceFile:50) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PacketPlayInClientCommand.handle(SourceFile:8) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.NetworkManager.a(NetworkManager.java:147) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.ServerConnection.c(SourceFile:134) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.v(MinecraftServer.java:657) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.DedicatedServer.v(DedicatedServer.java:250) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.u(MinecraftServer.java:548) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.run(MinecraftServer.java:459) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.ThreadServerApplication.run(SourceFile:618) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+Caused by: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at com.dsh105.echopet.compat.api.util.reflection.SafeConstructor.newInstance(SafeConstructor.java:65) ~[?:?]
+	at com.dsh105.echopet.compat.api.entity.PetType.getNewPetInstance(PetType.java:140) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.createPet(PetManager.java:124) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.createPetFromFile(PetManager.java:229) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.loadPets(PetManager.java:77) ~[?:?]
+	at com.dsh105.echopet.listeners.PetOwnerListener.onPlayerRespawn(PetOwnerListener.java:208) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_55]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_55]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_55]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_55]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:292) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	... 15 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.7.0_55]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.7.0_55]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.7.0_55]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.7.0_55]
+	at com.dsh105.echopet.compat.api.util.reflection.SafeConstructor.newInstance(SafeConstructor.java:57) ~[?:?]
+	at com.dsh105.echopet.compat.api.entity.PetType.getNewPetInstance(PetType.java:140) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.createPet(PetManager.java:124) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.createPetFromFile(PetManager.java:229) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.loadPets(PetManager.java:77) ~[?:?]
+	at com.dsh105.echopet.listeners.PetOwnerListener.onPlayerRespawn(PetOwnerListener.java:208) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_55]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_55]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_55]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_55]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:292) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	... 15 more
+Caused by: java.lang.NullPointerException
+	at java.lang.String.replace(Unknown Source) ~[?:1.7.0_55]
+	at com.dsh105.echopet.compat.api.entity.PetType.getDefaultName(PetType.java:111) ~[?:?]
+	at com.dsh105.echopet.api.pet.Pet.<init>(Pet.java:60) ~[?:?]
+	at com.dsh105.echopet.api.pet.type.OcelotPet.<init>(OcelotPet.java:39) ~[?:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.7.0_55]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.7.0_55]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.7.0_55]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.7.0_55]
+	at com.dsh105.echopet.compat.api.util.reflection.SafeConstructor.newInstance(SafeConstructor.java:57) ~[?:?]
+	at com.dsh105.echopet.compat.api.entity.PetType.getNewPetInstance(PetType.java:140) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.createPet(PetManager.java:124) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.createPetFromFile(PetManager.java:229) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.loadPets(PetManager.java:77) ~[?:?]
+	at com.dsh105.echopet.listeners.PetOwnerListener.onPlayerRespawn(PetOwnerListener.java:208) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_55]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_55]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_55]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_55]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:292) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	... 15 more
+[20:28:46] [Server thread/INFO]: Boe6Eod7Nty issued server command: /pet Wither
+[20:28:55] [Server thread/INFO]: Minecraftiscewl issued server command: /d Boe6Eod7Nty
+[20:29:02] [Server thread/INFO]: Minecraftiscewl issued server command: /d player Boe6Eod7Nty
+[20:29:06] [Server thread/INFO]: ItsJemoo was slain by Minecraftiscewl
+[20:29:09] [Server thread/ERROR]: Could not pass event PlayerRespawnEvent to EchoPet v2.3.3-b408
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:294) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:501) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:486) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PlayerList.moveToWorld(PlayerList.java:473) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PlayerList.moveToWorld(PlayerList.java:412) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PlayerConnection.a(PlayerConnection.java:1138) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PacketPlayInClientCommand.a(SourceFile:50) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PacketPlayInClientCommand.handle(SourceFile:8) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.NetworkManager.a(NetworkManager.java:147) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.ServerConnection.c(SourceFile:134) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.v(MinecraftServer.java:657) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.DedicatedServer.v(DedicatedServer.java:250) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.u(MinecraftServer.java:548) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.run(MinecraftServer.java:459) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.ThreadServerApplication.run(SourceFile:618) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+Caused by: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at com.dsh105.echopet.compat.api.util.reflection.SafeConstructor.newInstance(SafeConstructor.java:65) ~[?:?]
+	at com.dsh105.echopet.compat.api.entity.PetType.getNewPetInstance(PetType.java:140) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.createPet(PetManager.java:124) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.createPetFromFile(PetManager.java:229) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.loadPets(PetManager.java:77) ~[?:?]
+	at com.dsh105.echopet.listeners.PetOwnerListener.onPlayerRespawn(PetOwnerListener.java:208) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_55]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_55]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_55]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_55]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:292) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	... 15 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.7.0_55]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.7.0_55]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.7.0_55]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.7.0_55]
+	at com.dsh105.echopet.compat.api.util.reflection.SafeConstructor.newInstance(SafeConstructor.java:57) ~[?:?]
+	at com.dsh105.echopet.compat.api.entity.PetType.getNewPetInstance(PetType.java:140) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.createPet(PetManager.java:124) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.createPetFromFile(PetManager.java:229) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.loadPets(PetManager.java:77) ~[?:?]
+	at com.dsh105.echopet.listeners.PetOwnerListener.onPlayerRespawn(PetOwnerListener.java:208) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_55]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_55]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_55]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_55]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:292) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	... 15 more
+Caused by: java.lang.NullPointerException
+	at java.lang.String.replace(Unknown Source) ~[?:1.7.0_55]
+	at com.dsh105.echopet.compat.api.entity.PetType.getDefaultName(PetType.java:111) ~[?:?]
+	at com.dsh105.echopet.api.pet.Pet.<init>(Pet.java:60) ~[?:?]
+	at com.dsh105.echopet.api.pet.type.OcelotPet.<init>(OcelotPet.java:39) ~[?:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.7.0_55]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.7.0_55]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.7.0_55]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.7.0_55]
+	at com.dsh105.echopet.compat.api.util.reflection.SafeConstructor.newInstance(SafeConstructor.java:57) ~[?:?]
+	at com.dsh105.echopet.compat.api.entity.PetType.getNewPetInstance(PetType.java:140) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.createPet(PetManager.java:124) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.createPetFromFile(PetManager.java:229) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.loadPets(PetManager.java:77) ~[?:?]
+	at com.dsh105.echopet.listeners.PetOwnerListener.onPlayerRespawn(PetOwnerListener.java:208) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_55]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_55]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_55]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_55]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:292) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	... 15 more
+[20:29:13] [Server thread/INFO]: Minecraftiscewl issued server command: /pet remove
+[20:29:23] [Server thread/INFO]: Minecraftiscewl issued server command: /pet remove
+[20:29:23] [Server thread/INFO]: ItsJemoo issued server command: /coins
+[20:29:23] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'coins' in plugin ApexCoins v1
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:46) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:180) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at org.bukkit.craftbukkit.v1_7_R2.CraftServer.dispatchCommand(CraftServer.java:696) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PlayerConnection.handleCommand(PlayerConnection.java:952) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PlayerConnection.a(PlayerConnection.java:814) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PacketPlayInChat.a(PacketPlayInChat.java:28) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PacketPlayInChat.handle(PacketPlayInChat.java:47) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.NetworkManager.a(NetworkManager.java:147) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.ServerConnection.c(SourceFile:134) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.v(MinecraftServer.java:657) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.DedicatedServer.v(DedicatedServer.java:250) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.u(MinecraftServer.java:548) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.run(MinecraftServer.java:459) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.ThreadServerApplication.run(SourceFile:618) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at me.ItsJemoo.ApexCoins.ApexCoins.onCommand(ApexCoins.java:80) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	... 13 more
+[20:29:27] [Server thread/INFO]: ItsJemoo issued server command: /coins
+[20:29:27] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'coins' in plugin ApexCoins v1
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:46) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:180) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at org.bukkit.craftbukkit.v1_7_R2.CraftServer.dispatchCommand(CraftServer.java:696) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PlayerConnection.handleCommand(PlayerConnection.java:952) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PlayerConnection.a(PlayerConnection.java:814) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PacketPlayInChat.a(PacketPlayInChat.java:28) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PacketPlayInChat.handle(PacketPlayInChat.java:47) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.NetworkManager.a(NetworkManager.java:147) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.ServerConnection.c(SourceFile:134) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.v(MinecraftServer.java:657) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.DedicatedServer.v(DedicatedServer.java:250) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.u(MinecraftServer.java:548) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.run(MinecraftServer.java:459) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.ThreadServerApplication.run(SourceFile:618) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at me.ItsJemoo.ApexCoins.ApexCoins.onCommand(ApexCoins.java:80) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	... 13 more
+[20:29:35] [Server thread/INFO]: ItsJemoo issued server command: /pet remove
+[20:29:35] [Server thread/INFO]: Boe6Eod7Nty issued server command: /pet remove
+[20:29:44] [Server thread/INFO]: ItsJemoo issued server command: /gamemode c
+[20:29:44] [Server thread/INFO]: ItsJemoo: Set own game mode to CREATIVE mode[m
+[20:29:52] [Server thread/INFO]: ItsJemoo issued server command: /killall
+[20:29:54] [Server thread/INFO]: ItsJemoo issued server command: /kam
+[20:30:00] [Server thread/INFO]: ItsJemoo issued server command: /coins
+[20:30:00] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'coins' in plugin ApexCoins v1
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:46) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:180) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at org.bukkit.craftbukkit.v1_7_R2.CraftServer.dispatchCommand(CraftServer.java:696) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PlayerConnection.handleCommand(PlayerConnection.java:952) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PlayerConnection.a(PlayerConnection.java:814) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PacketPlayInChat.a(PacketPlayInChat.java:28) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PacketPlayInChat.handle(PacketPlayInChat.java:47) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.NetworkManager.a(NetworkManager.java:147) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.ServerConnection.c(SourceFile:134) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.v(MinecraftServer.java:657) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.DedicatedServer.v(DedicatedServer.java:250) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.u(MinecraftServer.java:548) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.run(MinecraftServer.java:459) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.ThreadServerApplication.run(SourceFile:618) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at me.ItsJemoo.ApexCoins.ApexCoins.onCommand(ApexCoins.java:80) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	... 13 more
+[20:30:04] [Server thread/INFO]: Minecraftiscewl issued server command: /pet Enderdragon
+[20:30:09] [Server thread/INFO]: ItsJemoo issued server command: /kam
+[20:30:14] [Server thread/INFO]: Minecraftiscewl issued server command: /pet remove
+[20:30:18] [Server thread/INFO]: Minecraftiscewl issued server command: /d Enderdragon
+[20:30:26] [Server thread/INFO]: Minecraftiscewl issued server command: /ud
+[20:30:37] [Server thread/INFO]: Minecraftiscewl issued server command: /pet witch
+[20:30:37] [Server thread/INFO]: Boe6Eod7Nty issued server command: /pet squid
+[20:31:26] [Server thread/INFO]: ItsJemoo issued server command: /pet pig
+[20:31:32] [Server thread/INFO]: ItsJemoo issued server command: /pet name TOROLOLOL
+[20:31:39] [Server thread/INFO]: Minecraftiscewl issued server command: /pet Slime
+[20:31:51] [Server thread/INFO]: Boe6Eod7Nty issued server command: /pet remove
+[20:32:00] [Server thread/INFO]: ItsJemoo issued server command: /pet remove
+[20:32:05] [Server thread/INFO]: Minecraftiscewl issued server command: /summon
+[20:33:38] [Server thread/INFO]: Minecraftiscewl was slain by ItsJemoo
+[20:33:40] [Server thread/ERROR]: Could not pass event PlayerRespawnEvent to EchoPet v2.3.3-b408
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:294) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:501) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:486) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PlayerList.moveToWorld(PlayerList.java:473) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PlayerList.moveToWorld(PlayerList.java:412) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PlayerConnection.a(PlayerConnection.java:1138) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PacketPlayInClientCommand.a(SourceFile:50) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.PacketPlayInClientCommand.handle(SourceFile:8) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.NetworkManager.a(NetworkManager.java:147) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.ServerConnection.c(SourceFile:134) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.v(MinecraftServer.java:657) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.DedicatedServer.v(DedicatedServer.java:250) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.u(MinecraftServer.java:548) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.MinecraftServer.run(MinecraftServer.java:459) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	at net.minecraft.server.v1_7_R2.ThreadServerApplication.run(SourceFile:618) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+Caused by: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at com.dsh105.echopet.compat.api.util.reflection.SafeConstructor.newInstance(SafeConstructor.java:65) ~[?:?]
+	at com.dsh105.echopet.compat.api.entity.PetType.getNewPetInstance(PetType.java:140) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.createPet(PetManager.java:124) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.createPetFromFile(PetManager.java:229) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.loadPets(PetManager.java:77) ~[?:?]
+	at com.dsh105.echopet.listeners.PetOwnerListener.onPlayerRespawn(PetOwnerListener.java:208) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_55]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_55]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_55]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_55]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:292) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	... 15 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.7.0_55]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.7.0_55]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.7.0_55]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.7.0_55]
+	at com.dsh105.echopet.compat.api.util.reflection.SafeConstructor.newInstance(SafeConstructor.java:57) ~[?:?]
+	at com.dsh105.echopet.compat.api.entity.PetType.getNewPetInstance(PetType.java:140) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.createPet(PetManager.java:124) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.createPetFromFile(PetManager.java:229) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.loadPets(PetManager.java:77) ~[?:?]
+	at com.dsh105.echopet.listeners.PetOwnerListener.onPlayerRespawn(PetOwnerListener.java:208) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_55]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_55]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_55]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_55]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:292) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	... 15 more
+Caused by: java.lang.NullPointerException
+	at java.lang.String.replace(Unknown Source) ~[?:1.7.0_55]
+	at com.dsh105.echopet.compat.api.entity.PetType.getDefaultName(PetType.java:111) ~[?:?]
+	at com.dsh105.echopet.api.pet.Pet.<init>(Pet.java:60) ~[?:?]
+	at com.dsh105.echopet.api.pet.type.SlimePet.<init>(SlimePet.java:36) ~[?:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.7.0_55]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.7.0_55]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.7.0_55]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.7.0_55]
+	at com.dsh105.echopet.compat.api.util.reflection.SafeConstructor.newInstance(SafeConstructor.java:57) ~[?:?]
+	at com.dsh105.echopet.compat.api.entity.PetType.getNewPetInstance(PetType.java:140) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.createPet(PetManager.java:124) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.createPetFromFile(PetManager.java:229) ~[?:?]
+	at com.dsh105.echopet.api.PetManager.loadPets(PetManager.java:77) ~[?:?]
+	at com.dsh105.echopet.listeners.PetOwnerListener.onPlayerRespawn(PetOwnerListener.java:208) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_55]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_55]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_55]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_55]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:292) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
+	... 15 more
+[20:33:52] [Server thread/INFO]: Minecraftiscewl issued server command: /summon
+[20:34:11] [Server thread/INFO]: Minecraftiscewl issued server command: /summon Ghast ~ ~ ~ {Riding:{id:Ghast}}
+[20:34:11] [Server thread/INFO]: [Minecraftiscewl: Object successfully summoned]
+[20:34:18] [Server thread/INFO]: Minecraftiscewl issued server command: /kam
+[20:34:52] [pool-4-thread-1/INFO]: GroupManager - INFO -  Data files refreshed.
+[20:35:10] [Server thread/INFO]: Minecraftiscewl issued server command: /give Minecraftiscewl COOKED_BEEF 64
+[20:35:10] [Server thread/INFO]: Minecraftiscewl: Gave Minecraftiscewl some 364 (COOKED_BEEF)[m
+[20:36:16] [Server thread/INFO]: Boe6Eod7Nty lost connection: Disconnected
+[20:36:16] [Server thread/INFO]: Boe6Eod7Nty left the game.
+[20:42:59] [User Authenticator #5/INFO]: UUID of player Boe6Eod7Nty is f8c68a8795b0402695887231d3e43fff
+[20:42:59] [Server thread/INFO]: Boe6Eod7Nty[/50.50.144.219:65509] logged in with entity id 803 at ([parkour] -41.340167069439005, 60.70000004768381, -24.511756204625225)
+[20:43:55] [Server thread/INFO]: Boe6Eod7Nty issued server command: /gamemode c
+[20:43:59] [Server thread/INFO]: Boe6Eod7Nty issued server command: /gamemode s
+[20:43:59] [Server thread/INFO]: Boe6Eod7Nty: Set own game mode to SURVIVAL mode[m
+[20:44:37] [Netty IO #3/INFO]: [parkour] <Boe6Eod7Nty> hey
+[20:44:39] [Netty IO #5/INFO]: [parkour] <ItsJemoo> ;ag
+[20:44:44] [Netty IO #7/INFO]: [parkour] <Boe6Eod7Nty> lag
+[20:44:48] [Netty IO #7/INFO]: [parkour] <Boe6Eod7Nty> lag
+[20:44:51] [Server thread/INFO]: Minecraftiscewl issued server command: /ud
+[20:46:01] [Server thread/INFO]: Boe6Eod7Nty lost connection: Disconnected
+[20:46:01] [Server thread/INFO]: Boe6Eod7Nty left the game.

@@ -105,3 +105,57 @@
 2014-06-11 17:28:52 Starting plugin version 1.5.1!
 2014-06-11 17:33:12 Stopping plugin!
 2014-06-11 17:33:41 Starting plugin version 1.5.1!
+2014-06-11 17:34:27 Stopping plugin!
+2014-06-11 17:34:59 Starting plugin version 1.5.1!
+2014-06-11 17:36:41 Stopping plugin!
+2014-06-11 17:37:25 Starting plugin version 1.5.1!
+2014-06-11 18:17:26 Stopping plugin!
+2014-06-11 18:17:29 Starting plugin version 1.5.1!
+2014-06-11 18:19:42 Stopping plugin!
+2014-06-11 18:20:05 Starting plugin version 1.5.1!
+2014-06-11 18:22:01 Stopping plugin!
+2014-06-11 18:23:02 Starting plugin version 1.5.1!
+2014-06-11 18:23:34 Stopping plugin!
+2014-06-11 18:24:08 Starting plugin version 1.5.1!
+2014-06-11 18:24:50 Starting plugin version 1.5.1!
+2014-06-11 18:32:51 Stopping plugin!
+2014-06-11 18:33:19 Starting plugin version 1.5.1!
+2014-06-11 18:34:17 Starting plugin version 1.5.1!
+2014-06-11 21:40:26 Stopping plugin!
+2014-06-11 21:41:00 Starting plugin version 1.5.1!
+2014-06-11 22:00:13 Stopping plugin!
+2014-06-11 22:00:16 Starting plugin version 1.5.1!
+2014-06-11 22:01:31 Starting plugin version 1.5.1!
+2014-06-11 22:05:51 Stopping plugin!
+2014-06-11 22:06:39 Starting plugin version 1.5.1!
+2014-06-11 22:12:39 Stopping plugin!
+2014-06-11 22:13:14 Starting plugin version 1.5.1!
+2014-06-11 22:43:44 Stopping plugin!
+2014-06-11 22:44:09 Starting plugin version 1.5.1!
+2014-06-11 22:46:07 Stopping plugin!
+2014-06-11 22:46:32 Starting plugin version 1.5.1!
+2014-06-11 22:48:40 Stopping plugin!
+2014-06-11 22:49:03 Starting plugin version 1.5.1!
+2014-06-11 22:55:53 Stopping plugin!
+2014-06-11 22:56:37 Starting plugin version 1.5.1!
+2014-06-12 18:30:53 Stopping plugin!
+2014-06-12 18:32:54 Starting plugin version 1.5.1!
+2014-06-12 18:43:54 Stopping plugin!
+2014-06-12 18:44:43 Starting plugin version 1.5.1!
+2014-06-12 19:05:56 Stopping plugin!
+2014-06-12 19:06:00 Starting plugin version 1.5.1!
+2014-06-12 19:07:03 Stopping plugin!
+2014-06-12 19:07:38 Starting plugin version 1.5.1!
+2014-06-12 19:08:22 Starting plugin version 1.5.1!
+2014-06-12 19:11:38 Stopping plugin!
+2014-06-12 19:11:43 Starting plugin version 1.5.1!
+2014-06-12 19:24:02 Stopping plugin!
+2014-06-12 19:24:21 Starting plugin version 1.5.1!
+2014-06-12 19:48:47 Stopping plugin!
+2014-06-12 19:48:52 Starting plugin version 1.5.1!
+2014-06-12 19:49:45 Stopping plugin!
+2014-06-12 19:50:10 Starting plugin version 1.5.1!
+2014-06-12 19:57:13 Stopping plugin!
+2014-06-12 19:57:56 Starting plugin version 1.5.1!
+2014-06-12 20:04:14 Stopping plugin!
+2014-06-12 20:04:55 Starting plugin version 1.5.1!

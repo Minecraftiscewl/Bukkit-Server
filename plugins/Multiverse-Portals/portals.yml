@@ -43,7 +43,7 @@ portals:
     location: 122.0,65.0,274.0:122.0,67.0,277.0
     world: Spawn
     destination: hub
-  Creative:
+  plotworld1:
     entryfee:
       currency: -1
       amount: 0.0
@@ -54,3 +54,25 @@ portals:
     location: 34.0,51.0,-5.0:34.0,56.0,5.0
     world: hub
     destination: plotworld
+  PvP-hub:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Boe6Eod7Nty
+    location: -34.0,51.0,-5.0:-34.0,56.0,5.0
+    world: hub
+    destination: PvP-hub
+  parkour:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Boe6Eod7Nty
+    location: -5.0,51.0,-34.0:5.0,56.0,-34.0
+    world: hub
+    destination: parkour
