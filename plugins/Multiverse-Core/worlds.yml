@@ -335,6 +335,54 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
+  SpeedLeap:
+    ==: MVWorld
+    hidden: 'false'
+    alias: SpeedLeap
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '1.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: EASY
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+      currency: '-1'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      yaw: 312.81555
+      pitch: -0.23001964
+      z: 915.3000000119209
+      y: 13.0
+      x: -900.6999999880791
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NORMAL
+    seed: '-4829299644469234188'
+    generator: 'null'
+    playerLimit: '-1'
+    allowFlight: 'true'
   PvP-hub:
     ==: MVWorld
     hidden: 'false'

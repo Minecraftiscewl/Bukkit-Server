@@ -1,0 +1,15 @@
+Players:
+  ItsJemoo:
+    friends:
+    - blue_nugget
+  blue_nugget:
+    friends:
+    - ItsJemoo
+    - TheHawkRocker
+    - Minecraftiscewl
+  TheHawkRocker:
+    friends:
+    - blue_nugget
+  Minecraftiscewl:
+    friends:
+    - blue_nugget

@@ -1,4 +1,4 @@
-# Updated 6/12/14 9:49 PM by Minecraft 1.7.5
+# Updated 6/13/14 12:40 AM by Minecraft 1.7.5
 # victim name | ban date | banned by | banned until | reason
 
 Chancef1|2014-06-10 23:30:09 -0500|CONSOLE|Forever|Banned by an operator.

@@ -1,218 +1,225 @@
-[21:49:38] [Server thread/INFO]: Starting minecraft server version 1.7.5
-[21:49:38] [Server thread/INFO]: Loading properties
-[21:49:38] [Server thread/INFO]: Default game type: SURVIVAL
-[21:49:38] [Server thread/INFO]: Generating keypair
-[21:49:38] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:49:39] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks (MC: 1.7.5) (Implementing API version 1.7.5-R0.1-SNAPSHOT)
-[21:49:39] [Server thread/ERROR]: Ambiguous plugin name `PlayerInteract' for files `plugins\PlayerInteract.jar' and `plugins\ApexInteract.jar' in `plugins'
-[21:49:39] [Server thread/ERROR]: Could not load 'plugins\DisguiseCraft.jar' in folder 'plugins'
-org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/minecraft/server/v1_6_R3/Packet
-	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:328) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:251) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-	at org.bukkit.craftbukkit.v1_7_R2.CraftServer.loadPlugins(CraftServer.java:350) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-	at org.bukkit.craftbukkit.v1_7_R2.CraftServer.<init>(CraftServer.java:312) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-	at net.minecraft.server.v1_7_R2.PlayerList.<init>(PlayerList.java:63) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-	at net.minecraft.server.v1_7_R2.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-	at net.minecraft.server.v1_7_R2.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-	at net.minecraft.server.v1_7_R2.MinecraftServer.run(MinecraftServer.java:426) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-	at net.minecraft.server.v1_7_R2.ThreadServerApplication.run(SourceFile:618) [craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-Caused by: java.lang.NoClassDefFoundError: net/minecraft/server/v1_6_R3/Packet
-	at java.lang.Class.forName0(Native Method) ~[?:1.7.0_55]
-	at java.lang.Class.forName(Unknown Source) ~[?:1.7.0_55]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:40) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-	... 9 more
-Caused by: java.lang.ClassNotFoundException: net.minecraft.server.v1_6_R3.Packet
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:67) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.7.0_55]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.7.0_55]
-	at java.lang.Class.forName0(Native Method) ~[?:1.7.0_55]
-	at java.lang.Class.forName(Unknown Source) ~[?:1.7.0_55]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:40) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[craftbukkit-1.7.5-R0.1.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-	... 9 more
-[21:49:40] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v5.6.1
-[21:49:40] [Server thread/INFO]: [ApexCoins] Loading ApexCoins v1
-[21:49:40] [Server thread/INFO]: [MyItems] Loading MyItems v1.7
-[21:49:40] [Server thread/INFO]: [Vault] Loading Vault v1.2.31-b411
-[21:49:40] [Server thread/INFO]: [ApexInvis] Loading ApexInvis v1
-[21:49:40] [Server thread/INFO]: [PlotMe] Loading PlotMe v0.13e
-[21:49:40] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.21.4
-[21:49:40] [Server thread/INFO]: [PlayerInteract] Loading PlayerInteract v1
-[21:49:40] [Server thread/INFO]: [EmptyWorldGenerator] Loading EmptyWorldGenerator v1.4
-[21:49:40] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b678
-[21:49:40] [Server thread/INFO]: [BarAPI] Loading BarAPI v3.1
-[21:49:40] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v5.9
-[21:49:40] [Server thread/INFO]: [SpeedLeap] Loading SpeedLeap v1
-[21:49:40] [Server thread/INFO]: [PluginHide] Loading PluginHide v1
-[21:49:40] [Server thread/INFO]: [ChatPerWorld] Loading ChatPerWorld v1.3
-[21:49:40] [Server thread/INFO]: [ApexDJ] Loading ApexDJ v1
-[21:49:40] [Server thread/INFO]: [Marriage] Loading Marriage v1.2.5
-[21:49:40] [Server thread/INFO]: [MinigamesParty] Loading MinigamesParty v1.5.4
-[21:49:40] [Server thread/INFO]: [PetMenu] Loading PetMenu v1
-[21:49:40] [Server thread/INFO]: [ApexStacker] Loading ApexStacker v1
-[21:49:40] [Server thread/INFO]: [AnyEnchant] Loading AnyEnchant v1
-[21:49:40] [Server thread/INFO]: [FakeLogin] Loading FakeLogin v2.3
-[21:49:40] [Server thread/INFO]: [iDisguise] Loading iDisguise v3.0.4
-[21:49:40] [Server thread/INFO]: [KillAllMobs] Loading KillAllMobs v1.2
-[21:49:40] [Server thread/INFO]: [LightSwitch] Loading LightSwitch v1
-[21:49:40] [Server thread/INFO]: [ApexPads] Loading ApexPads v1
-[21:49:40] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v2.5-b699
-[21:49:40] [Server thread/INFO]: [HeavySpleef] Loading HeavySpleef v1.5.1
-[21:49:40] [Server thread/INFO]: [Multiverse-SignPortals] Loading Multiverse-SignPortals v2.5-b665
-[21:49:40] [Server thread/INFO]: [blFriends] Loading blFriends v0.9.7c
-[21:49:40] [Server thread/INFO]: [Multiverse-NetherPortals] Loading Multiverse-NetherPortals v2.5-b675
-[21:49:40] [Server thread/INFO]: [EchoPet] Loading EchoPet v2.3.3-b408
-[21:49:40] [Server thread/INFO]: [Vault] Enabling Vault v1.2.31-b411
-[21:49:40] [Thread-8/INFO]: ----- Bukkit Auto Updater -----
-[21:49:40] [Thread-8/INFO]: It appears that you're running a Development Build, when you've specified in bukkit.yml that you prefer to run Recommended Builds.
-[21:49:40] [Thread-8/INFO]: If you would like to be kept informed about new Development Build releases, it is recommended that you change 'preferred-channel' in your bukkit.yml to 'dev'.
-[21:49:40] [Thread-8/INFO]: With that set, you will be told whenever a new version is available for download, so that you can always keep up to date and secure with the latest fixes.
-[21:49:40] [Thread-8/INFO]: If you would like to disable this warning, simply set 'suggest-channels' to false in bukkit.yml.
-[21:49:40] [Thread-8/INFO]: ----- ------------------- -----
-[21:49:40] [Server thread/INFO]: [Vault] [Vault][Permission] PermissionsEx found: Waiting
-[21:49:40] [Server thread/INFO]: [Vault] [Vault][Permission] SuperPermissions loaded as backup permission system.
-[21:49:40] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx found: Waiting
-[21:49:40] [Server thread/INFO]: [Vault] [Vault] Enabled Version 1.2.31-b411
-[21:49:40] [Server thread/INFO]: [PlotMe] Enabling PlotMe v0.13e
-[21:49:40] [Server thread/INFO]: PlotMe 5 plots loaded
-[21:49:40] [Server thread/INFO]: [EmptyWorldGenerator] Enabling EmptyWorldGenerator v1.4
-[21:49:40] [Server thread/INFO]: [EmptyWorldGenerator] EmptyWorldGenerator has been enabled
-[21:49:40] [Server thread/INFO]: Preparing level "false"
-[21:49:40] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1324547962865318020)
-[21:49:41] [Server thread/INFO]: Preparing start region for level 1 (Seed: -425921682864768401)
-[21:49:42] [Server thread/INFO]: Preparing spawn area: 98%
-[21:49:42] [Server thread/INFO]: Preparing start region for level 2 (Seed: -425921682864768401)
-[21:49:42] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v5.6.1
-[21:49:42] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:49:42] [Server thread/INFO]: [ApexCoins] Enabling ApexCoins v1
-[21:49:42] [Server thread/INFO]: [MyItems] Enabling MyItems v1.7
-[21:49:42] [Server thread/INFO]: [MyItems] Loaded items:
-[21:49:42] [Server thread/INFO]: [MyItems] - demo
-[21:49:42] [Server thread/INFO]: [ApexInvis] Enabling ApexInvis v1
-[21:49:42] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.21.4
-[21:49:42] [Server thread/INFO]: [PermissionsEx] Initializing file backend
-[21:49:42] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
-[21:49:42] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
-[21:49:42] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
-[21:49:42] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
-[21:49:42] [Server thread/INFO]: [PlayerInteract] Enabling PlayerInteract v1
-[21:49:42] [Server thread/INFO]: [PlayerInteract] PlayerInteract Has Been Enabled!
-[21:49:42] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b678
-[21:49:42] [Server thread/INFO]: [Multiverse-Core] [AllPay] - Version 13.0 - using only an item based economy for Multiverse-Core v2.5-b678
-[21:49:43] [Server thread/INFO]: Preparing start region for level 3 (Seed: 6552340572108070760)
-[21:49:43] [Thread-11/WARN]: [PermissionsEx] An update to PermissionsEx version 1.22 is available to download from http://dev.bukkit.org/bukkit-plugins/permissionsex/. Please review the changes and update as soon as possible!
-[21:49:43] [Server thread/INFO]: Preparing start region for level 4 (Seed: 1542591992132947805)
-[21:49:44] [Server thread/INFO]: Preparing start region for level 5 (Seed: -6453272784025227119)
-[21:49:44] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[21:49:45] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b678 (API v18) Enabled - By Rigby, fernferret, lithium3141 and main--
-[21:49:45] [Server thread/INFO]: [BarAPI] Enabling BarAPI v3.1
-[21:49:45] [Server thread/INFO]: [BarAPI] Loaded
-[21:49:45] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v5.9
-[21:49:45] [Server thread/INFO]: [WorldGuard] (hub) TNT ignition is PERMITTED.
-[21:49:45] [Server thread/INFO]: [WorldGuard] (hub) Lighters are PERMITTED.
-[21:49:45] [Server thread/INFO]: [WorldGuard] (hub) Lava fire is blocked.
-[21:49:45] [Server thread/INFO]: [WorldGuard] (hub) Fire spread is UNRESTRICTED.
-[21:49:45] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'hub'
-[21:49:45] [Server thread/INFO]: [WorldGuard] (hub_nether) TNT ignition is PERMITTED.
-[21:49:45] [Server thread/INFO]: [WorldGuard] (hub_nether) Lighters are PERMITTED.
-[21:49:45] [Server thread/INFO]: [WorldGuard] (hub_nether) Lava fire is blocked.
-[21:49:45] [Server thread/INFO]: [WorldGuard] (hub_nether) Fire spread is UNRESTRICTED.
-[21:49:45] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'hub_nether'
-[21:49:45] [Server thread/INFO]: [WorldGuard] (hub_the_end) TNT ignition is PERMITTED.
-[21:49:45] [Server thread/INFO]: [WorldGuard] (hub_the_end) Lighters are PERMITTED.
-[21:49:45] [Server thread/INFO]: [WorldGuard] (hub_the_end) Lava fire is blocked.
-[21:49:45] [Server thread/INFO]: [WorldGuard] (hub_the_end) Fire spread is UNRESTRICTED.
-[21:49:45] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'hub_the_end'
-[21:49:45] [Server thread/INFO]: [WorldGuard] (parkour) TNT ignition is PERMITTED.
-[21:49:45] [Server thread/INFO]: [WorldGuard] (parkour) Lighters are PERMITTED.
-[21:49:45] [Server thread/INFO]: [WorldGuard] (parkour) Lava fire is blocked.
-[21:49:45] [Server thread/INFO]: [WorldGuard] (parkour) Fire spread is UNRESTRICTED.
-[21:49:45] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'parkour'
-[21:49:45] [Server thread/INFO]: [WorldGuard] (SuperRecraftedBros) TNT ignition is PERMITTED.
-[21:49:45] [Server thread/INFO]: [WorldGuard] (SuperRecraftedBros) Lighters are PERMITTED.
-[21:49:45] [Server thread/INFO]: [WorldGuard] (SuperRecraftedBros) Lava fire is blocked.
-[21:49:45] [Server thread/INFO]: [WorldGuard] (SuperRecraftedBros) Fire spread is UNRESTRICTED.
-[21:49:45] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'SuperRecraftedBros'
-[21:49:45] [Server thread/INFO]: [WorldGuard] (PvP-hub) TNT ignition is PERMITTED.
-[21:49:45] [Server thread/INFO]: [WorldGuard] (PvP-hub) Lighters are PERMITTED.
-[21:49:45] [Server thread/INFO]: [WorldGuard] (PvP-hub) Lava fire is blocked.
-[21:49:45] [Server thread/INFO]: [WorldGuard] (PvP-hub) Fire spread is UNRESTRICTED.
-[21:49:45] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'PvP-hub'
-[21:49:45] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'hub'
-[21:49:45] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'hub_nether'
-[21:49:45] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'hub_the_end'
-[21:49:45] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'parkour'
-[21:49:45] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'SuperRecraftedBros'
-[21:49:45] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'PvP-hub'
-[21:49:45] [Server thread/INFO]: [SpeedLeap] Enabling SpeedLeap v1
-[21:49:45] [Server thread/INFO]: [PluginHide] Enabling PluginHide v1
-[21:49:45] [Server thread/INFO]: [PluginHide] PluginHide Has Been Enabled!
-[21:49:45] [Server thread/INFO]: [ChatPerWorld] Enabling ChatPerWorld v1.3
-[21:49:45] [Server thread/INFO]: [ApexDJ] Enabling ApexDJ v1
-[21:49:45] [Server thread/INFO]: [Marriage] Enabling Marriage v1.2.5
-[21:49:45] [Server thread/ERROR]: [Marriage] Marriage is not compatible with the version of minecraft you are using!
-[21:49:45] [Server thread/ERROR]: Marriage kissing will be disabled!
-[21:49:45] [Server thread/INFO]: [MinigamesParty] Enabling MinigamesParty v1.5.4
-[21:49:45] [Server thread/INFO]: [0;34;1mMinigamesParty is running on v1_7_R2.[m
-[21:49:45] [Server thread/INFO]: [PetMenu] Enabling PetMenu v1
-[21:49:45] [Server thread/INFO]: [ApexStacker] Enabling ApexStacker v1
-[21:49:45] [Server thread/INFO]: [ApexStacker] ApexStacker Has Been Enabled!
-[21:49:45] [Server thread/INFO]: [AnyEnchant] Enabling AnyEnchant v1
-[21:49:45] [Server thread/INFO]: [AnyEnchant] AnyEnchant Has Been Enabled!
-[21:49:45] [Server thread/INFO]: [FakeLogin] Enabling FakeLogin v2.3
-[21:49:45] [Server thread/INFO]: FakeLogin Version 2.3 Has Been Enabled!
-[21:49:45] [Server thread/INFO]: [iDisguise] Enabling iDisguise v3.0.4
-[21:49:45] [Server thread/INFO]: [iDisguise] iDisguise v3.0.4 enabled!
-[21:49:45] [Server thread/INFO]: [KillAllMobs] Enabling KillAllMobs v1.2
-[21:49:45] [Server thread/INFO]: [KillAllMobs] KillAllMobs has been enabled!
-[21:49:45] [Server thread/INFO]: [LightSwitch] Enabling LightSwitch v1
-[21:49:45] [Server thread/INFO]: [LightSwitch] LightSwitch Has Been Enabled
-[21:49:45] [Server thread/INFO]: [ApexPads] Enabling ApexPads v1
-[21:49:45] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v2.5-b699
-[21:49:45] [Server thread/INFO]: [Multiverse-Portals] - Version 2.5-b699 Enabled - By Rigby and fernferret
-[21:49:45] [Server thread/WARN]: [MVPLogging] Failed Parsing World for: Real-Spawn (World Error, World did not exist or was not imported into Multiverse-Core!)
-[21:49:45] [Server thread/WARN]: [MVPLogging] Portal Real-Spawn has an invalid LOCATION!
-[21:49:45] [Server thread/WARN]: [MVPLogging] Portal 'Real-Spawn' not loaded due to invalid location!
-[21:49:45] [Server thread/WARN]: [MVPLogging] Failed Parsing World for: Hub (World Error, World did not exist or was not imported into Multiverse-Core!)
-[21:49:45] [Server thread/WARN]: [MVPLogging] Portal Hub has an invalid LOCATION!
-[21:49:45] [Server thread/WARN]: [MVPLogging] Portal 'Hub' not loaded due to invalid location!
-[21:49:45] [Server thread/WARN]: [MVPLogging] Failed Parsing World for: Marp (World Error, World did not exist or was not imported into Multiverse-Core!)
-[21:49:45] [Server thread/WARN]: [MVPLogging] Portal Marp has an invalid LOCATION!
-[21:49:45] [Server thread/WARN]: [MVPLogging] Portal 'Marp' not loaded due to invalid location!
-[21:49:45] [Server thread/WARN]: [MVPLogging] Failed Parsing World for: Derp (World Error, World did not exist or was not imported into Multiverse-Core!)
-[21:49:45] [Server thread/WARN]: [MVPLogging] Portal Derp has an invalid LOCATION!
-[21:49:45] [Server thread/WARN]: [MVPLogging] Portal 'Derp' not loaded due to invalid location!
-[21:49:46] [Server thread/INFO]: [MVPLogging] 7 - Portals(s) loaded
-[21:49:46] [Server thread/WARN]: [Multiverse-Core] Portal plotworld1 has an invalid DESTINATION!
-[21:49:46] [Server thread/INFO]: [HeavySpleef] Enabling HeavySpleef v1.5.1
-[21:49:46] [Server thread/INFO]: [HeavySpleef] Loaded 0 games!
-[21:49:46] [Server thread/INFO]: [HeavySpleef] HeavySpleef v1.5.1 activated!
-[21:49:46] [Server thread/INFO]: [Multiverse-SignPortals] Enabling Multiverse-SignPortals v2.5-b665
-[21:49:46] [Server thread/INFO]: [Multiverse-SignPortals 2.5-b665]  Enabled - By Rigby and fernferret
-[21:49:46] [Server thread/INFO]: [blFriends] Enabling blFriends v0.9.7c
-[21:49:46] [Server thread/INFO]: [blFriends] Loading DoubleXP feature with region Support
-[21:49:46] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v2.5-b675
-[21:49:46] [Server thread/INFO]: [Multiverse-NetherPortals] - Version 2.5-b675 Enabled - By Rigby and fernferret
-[21:49:46] [Server thread/INFO]: [EchoPet] Enabling EchoPet v2.3.3-b408
-[21:49:47] [Server thread/INFO]: [EchoPet] [WorldGuard] Successfully hooked
-[21:49:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:49:48] [Server thread/INFO]: Done (7.962s)! For help, type "help" or "?"
-[21:49:48] [pool-3-thread-2/INFO]: Checking if conversion to UUID needed...
-[21:49:48] [pool-3-thread-2/INFO]: Verifying if database needs conversion
-[21:49:48] [pool-3-thread-2/INFO]: Starting to convert plots to UUID
-[21:49:48] [pool-3-thread-2/INFO]: Fetching 0 UUIDs from Mojang servers...
-[21:49:48] [pool-3-thread-2/INFO]: Finished fetching 0 UUIDs. Starting database update.
-[21:49:48] [pool-3-thread-2/INFO]: 0 players converted
-[21:49:48] [pool-3-thread-2/INFO]: Plot conversion finished
-[21:49:48] [pool-3-thread-14/INFO]: [Vault] Checking for Updates:
-[21:49:48] [pool-3-thread-14/WARN]: [Vault] Stable Version: 1.4.1 is out! You are still running version: 1.2.31
-[21:49:48] [pool-3-thread-14/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
-[21:49:48] [pool-3-thread-12/INFO]: [EchoPet] [0;32;1m[INFO] [0;33;22mAn update is available: EchoPet v2.3.3[m
-[21:49:48] [pool-3-thread-12/INFO]: [EchoPet] [0;32;1m[INFO] [0;33;22mType /ecupdate to update.[m
-[21:49:49] [pool-3-thread-12/INFO]: [iDisguise] An update for iDisguise is available: null[m
-[21:49:54] [User Authenticator #1/INFO]: UUID of player TheHawkRocker is fee19ae6b83c46629ff298f3c5347521
-[21:49:54] [Server thread/INFO]: TheHawkRocker[/70.225.160.113:53787] logged in with entity id 55 at ([hub] 0.8774651645205631, 58.0, -1.7881592602452954)
-[21:49:57] [Server thread/INFO]: [WorldEdit] Using inbuilt NmsBlock for this version.
+[00:40:16] [Server thread/INFO]: Starting minecraft server version 1.7.5
+[00:40:16] [Server thread/INFO]: Loading properties
+[00:40:16] [Server thread/INFO]: Default game type: SURVIVAL
+[00:40:16] [Server thread/INFO]: Generating keypair
+[00:40:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:40:16] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks (MC: 1.7.5) (Implementing API version 1.7.5-R0.1-SNAPSHOT)
+[00:40:17] [Server thread/ERROR]: Ambiguous plugin name `PlayerInteract' for files `plugins\PlayerInteract.jar' and `plugins\ApexInteract.jar' in `plugins'
+[00:40:17] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v5.6.1
+[00:40:17] [Server thread/INFO]: [ApexCoins] Loading ApexCoins v1
+[00:40:17] [Server thread/INFO]: [MyItems] Loading MyItems v1.7
+[00:40:17] [Server thread/INFO]: [Vault] Loading Vault v1.2.31-b411
+[00:40:17] [Server thread/INFO]: [ApexInvis] Loading ApexInvis v1
+[00:40:17] [Server thread/INFO]: [PlotMe] Loading PlotMe v0.13e
+[00:40:17] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.21.4
+[00:40:17] [Server thread/INFO]: [EmptyWorldGenerator] Loading EmptyWorldGenerator v1.4
+[00:40:17] [Server thread/INFO]: [PlayerInteract] Loading PlayerInteract v1
+[00:40:17] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b678
+[00:40:17] [Server thread/INFO]: [BarAPI] Loading BarAPI v3.1
+[00:40:17] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v5.9
+[00:40:17] [Server thread/INFO]: [SpeedLeap] Loading SpeedLeap v1
+[00:40:17] [Server thread/INFO]: [PluginHide] Loading PluginHide v1
+[00:40:17] [Server thread/INFO]: [ChatPerWorld] Loading ChatPerWorld v1.3
+[00:40:17] [Server thread/INFO]: [ApexDJ] Loading ApexDJ v1
+[00:40:17] [Server thread/INFO]: [Marriage] Loading Marriage v1.2.5
+[00:40:17] [Server thread/INFO]: [MinigamesParty] Loading MinigamesParty v1.5.4
+[00:40:17] [Server thread/INFO]: [PerWorldPlugins] Loading PerWorldPlugins v1.2.3
+[00:40:17] [Server thread/INFO]: [PerWorldPlugins] Registering event interceptor...
+[00:40:17] [Server thread/INFO]: [PetMenu] Loading PetMenu v1
+[00:40:17] [Server thread/INFO]: [ApexStacker] Loading ApexStacker v1
+[00:40:17] [Server thread/INFO]: [AnyEnchant] Loading AnyEnchant v1
+[00:40:17] [Server thread/INFO]: [FakeLogin] Loading FakeLogin v2.3
+[00:40:17] [Server thread/INFO]: [iDisguise] Loading iDisguise v3.0.4
+[00:40:17] [Server thread/INFO]: [KillAllMobs] Loading KillAllMobs v1.2
+[00:40:17] [Server thread/INFO]: [LightSwitch] Loading LightSwitch v1
+[00:40:17] [Server thread/INFO]: [ApexPads] Loading ApexPads v1
+[00:40:17] [Server thread/INFO]: [ServerSigns] Loading ServerSigns v3.0.0
+[00:40:17] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v2.5-b699
+[00:40:17] [Server thread/INFO]: [HeavySpleef] Loading HeavySpleef v1.5.1
+[00:40:17] [Server thread/INFO]: [Multiverse-SignPortals] Loading Multiverse-SignPortals v2.5-b665
+[00:40:17] [Server thread/INFO]: [blFriends] Loading blFriends v0.9.7c
+[00:40:17] [Server thread/INFO]: [Multiverse-NetherPortals] Loading Multiverse-NetherPortals v2.5-b675
+[00:40:17] [Server thread/INFO]: [EchoPet] Loading EchoPet v2.3.3-b408
+[00:40:17] [Server thread/INFO]: [Vault] Enabling Vault v1.2.31-b411
+[00:40:17] [Server thread/INFO]: [Vault] [Vault][Permission] PermissionsEx found: Waiting
+[00:40:17] [Server thread/INFO]: [Vault] [Vault][Permission] SuperPermissions loaded as backup permission system.
+[00:40:17] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx found: Waiting
+[00:40:17] [Server thread/INFO]: [Vault] [Vault] Enabled Version 1.2.31-b411
+[00:40:17] [Server thread/INFO]: [PlotMe] Enabling PlotMe v0.13e
+[00:40:17] [Thread-8/INFO]: ----- Bukkit Auto Updater -----
+[00:40:17] [Thread-8/INFO]: It appears that you're running a Development Build, when you've specified in bukkit.yml that you prefer to run Recommended Builds.
+[00:40:17] [Thread-8/INFO]: If you would like to be kept informed about new Development Build releases, it is recommended that you change 'preferred-channel' in your bukkit.yml to 'dev'.
+[00:40:17] [Thread-8/INFO]: With that set, you will be told whenever a new version is available for download, so that you can always keep up to date and secure with the latest fixes.
+[00:40:17] [Thread-8/INFO]: If you would like to disable this warning, simply set 'suggest-channels' to false in bukkit.yml.
+[00:40:17] [Thread-8/INFO]: ----- ------------------- -----
+[00:40:17] [Server thread/INFO]: PlotMe 5 plots loaded
+[00:40:17] [Server thread/INFO]: [EmptyWorldGenerator] Enabling EmptyWorldGenerator v1.4
+[00:40:17] [Server thread/INFO]: [EmptyWorldGenerator] EmptyWorldGenerator has been enabled
+[00:40:17] [Server thread/INFO]: Preparing level "false"
+[00:40:17] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1324547962865318020)
+[00:40:18] [Server thread/INFO]: Preparing start region for level 1 (Seed: -425921682864768401)
+[00:40:19] [Server thread/INFO]: Preparing start region for level 2 (Seed: -425921682864768401)
+[00:40:19] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v5.6.1
+[00:40:19] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[00:40:19] [Server thread/INFO]: [ApexCoins] Enabling ApexCoins v1
+[00:40:19] [Server thread/INFO]: [MyItems] Enabling MyItems v1.7
+[00:40:19] [Server thread/INFO]: [MyItems] Loaded items:
+[00:40:19] [Server thread/INFO]: [MyItems] - demo
+[00:40:19] [Server thread/INFO]: [ApexInvis] Enabling ApexInvis v1
+[00:40:19] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.21.4
+[00:40:19] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[00:40:19] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[00:40:19] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[00:40:19] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[00:40:19] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[00:40:19] [Server thread/INFO]: [PlayerInteract] Enabling PlayerInteract v1
+[00:40:19] [Server thread/INFO]: [PlayerInteract] PlayerInteract Has Been Enabled!
+[00:40:19] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b678
+[00:40:19] [Server thread/INFO]: [Multiverse-Core] [AllPay] - Version 13.0 - using only an item based economy for Multiverse-Core v2.5-b678
+[00:40:20] [Server thread/INFO]: Preparing start region for level 3 (Seed: 6552340572108070760)
+[00:40:20] [Thread-11/WARN]: [PermissionsEx] An update to PermissionsEx version 1.22 is available to download from http://dev.bukkit.org/bukkit-plugins/permissionsex/. Please review the changes and update as soon as possible!
+[00:40:20] [Server thread/INFO]: Preparing start region for level 4 (Seed: 1542591992132947805)
+[00:40:21] [Server thread/INFO]: Preparing start region for level 5 (Seed: -4829299644469234188)
+[00:40:21] [Server thread/INFO]: Preparing start region for level 6 (Seed: -6453272784025227119)
+[00:40:21] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
+[00:40:21] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b678 (API v18) Enabled - By Rigby, fernferret, lithium3141 and main--
+[00:40:21] [Server thread/INFO]: [BarAPI] Enabling BarAPI v3.1
+[00:40:21] [Server thread/INFO]: [BarAPI] Loaded
+[00:40:21] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v5.9
+[00:40:22] [Server thread/INFO]: [WorldGuard] (hub) TNT ignition is PERMITTED.
+[00:40:22] [Server thread/INFO]: [WorldGuard] (hub) Lighters are PERMITTED.
+[00:40:22] [Server thread/INFO]: [WorldGuard] (hub) Lava fire is blocked.
+[00:40:22] [Server thread/INFO]: [WorldGuard] (hub) Fire spread is UNRESTRICTED.
+[00:40:22] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'hub'
+[00:40:22] [Server thread/INFO]: [WorldGuard] (hub_nether) TNT ignition is PERMITTED.
+[00:40:22] [Server thread/INFO]: [WorldGuard] (hub_nether) Lighters are PERMITTED.
+[00:40:22] [Server thread/INFO]: [WorldGuard] (hub_nether) Lava fire is blocked.
+[00:40:22] [Server thread/INFO]: [WorldGuard] (hub_nether) Fire spread is UNRESTRICTED.
+[00:40:22] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'hub_nether'
+[00:40:22] [Server thread/INFO]: [WorldGuard] (hub_the_end) TNT ignition is PERMITTED.
+[00:40:22] [Server thread/INFO]: [WorldGuard] (hub_the_end) Lighters are PERMITTED.
+[00:40:22] [Server thread/INFO]: [WorldGuard] (hub_the_end) Lava fire is blocked.
+[00:40:22] [Server thread/INFO]: [WorldGuard] (hub_the_end) Fire spread is UNRESTRICTED.
+[00:40:22] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'hub_the_end'
+[00:40:22] [Server thread/INFO]: [WorldGuard] (parkour) TNT ignition is PERMITTED.
+[00:40:22] [Server thread/INFO]: [WorldGuard] (parkour) Lighters are PERMITTED.
+[00:40:22] [Server thread/INFO]: [WorldGuard] (parkour) Lava fire is blocked.
+[00:40:22] [Server thread/INFO]: [WorldGuard] (parkour) Fire spread is UNRESTRICTED.
+[00:40:22] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'parkour'
+[00:40:22] [Server thread/INFO]: [WorldGuard] (SuperRecraftedBros) TNT ignition is PERMITTED.
+[00:40:22] [Server thread/INFO]: [WorldGuard] (SuperRecraftedBros) Lighters are PERMITTED.
+[00:40:22] [Server thread/INFO]: [WorldGuard] (SuperRecraftedBros) Lava fire is blocked.
+[00:40:22] [Server thread/INFO]: [WorldGuard] (SuperRecraftedBros) Fire spread is UNRESTRICTED.
+[00:40:22] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'SuperRecraftedBros'
+[00:40:22] [Server thread/INFO]: [WorldGuard] (SpeedLeap) TNT ignition is PERMITTED.
+[00:40:22] [Server thread/INFO]: [WorldGuard] (SpeedLeap) Lighters are PERMITTED.
+[00:40:22] [Server thread/INFO]: [WorldGuard] (SpeedLeap) Lava fire is blocked.
+[00:40:22] [Server thread/INFO]: [WorldGuard] (SpeedLeap) Fire spread is UNRESTRICTED.
+[00:40:22] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'SpeedLeap'
+[00:40:22] [Server thread/INFO]: [WorldGuard] (PvP-hub) TNT ignition is PERMITTED.
+[00:40:22] [Server thread/INFO]: [WorldGuard] (PvP-hub) Lighters are PERMITTED.
+[00:40:22] [Server thread/INFO]: [WorldGuard] (PvP-hub) Lava fire is blocked.
+[00:40:22] [Server thread/INFO]: [WorldGuard] (PvP-hub) Fire spread is UNRESTRICTED.
+[00:40:22] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'PvP-hub'
+[00:40:22] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'hub'
+[00:40:22] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'hub_nether'
+[00:40:22] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'hub_the_end'
+[00:40:22] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'parkour'
+[00:40:22] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'SuperRecraftedBros'
+[00:40:22] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'SpeedLeap'
+[00:40:22] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'PvP-hub'
+[00:40:22] [Server thread/INFO]: [SpeedLeap] Enabling SpeedLeap v1
+[00:40:22] [Server thread/INFO]: [PluginHide] Enabling PluginHide v1
+[00:40:22] [Server thread/INFO]: [PluginHide] PluginHide Has Been Enabled!
+[00:40:22] [Server thread/INFO]: [ChatPerWorld] Enabling ChatPerWorld v1.3
+[00:40:22] [Server thread/INFO]: [ApexDJ] Enabling ApexDJ v1
+[00:40:22] [Server thread/INFO]: [Marriage] Enabling Marriage v1.2.5
+[00:40:22] [Server thread/ERROR]: [Marriage] Marriage is not compatible with the version of minecraft you are using!
+[00:40:22] [Server thread/ERROR]: Marriage kissing will be disabled!
+[00:40:22] [Server thread/INFO]: [MinigamesParty] Enabling MinigamesParty v1.5.4
+[00:40:22] [Server thread/INFO]: [0;34;1mMinigamesParty is running on v1_7_R2.[m
+[00:40:22] [Server thread/INFO]: [PerWorldPlugins] Enabling PerWorldPlugins v1.2.3
+[00:40:22] [Server thread/INFO]: [PerWorldPlugins] Enabled, attempting to inject CommandHandler...
+[00:40:22] [Server thread/INFO]: [PetMenu] Enabling PetMenu v1
+[00:40:22] [Server thread/INFO]: [ApexStacker] Enabling ApexStacker v1
+[00:40:22] [Server thread/INFO]: [ApexStacker] ApexStacker Has Been Enabled!
+[00:40:22] [Server thread/INFO]: [AnyEnchant] Enabling AnyEnchant v1
+[00:40:22] [Server thread/INFO]: [AnyEnchant] AnyEnchant Has Been Enabled!
+[00:40:22] [Server thread/INFO]: [FakeLogin] Enabling FakeLogin v2.3
+[00:40:22] [Server thread/INFO]: FakeLogin Version 2.3 Has Been Enabled!
+[00:40:22] [Server thread/INFO]: [iDisguise] Enabling iDisguise v3.0.4
+[00:40:22] [Server thread/INFO]: [iDisguise] iDisguise v3.0.4 enabled!
+[00:40:22] [Server thread/INFO]: [KillAllMobs] Enabling KillAllMobs v1.2
+[00:40:22] [Server thread/INFO]: [KillAllMobs] KillAllMobs has been enabled!
+[00:40:22] [Server thread/INFO]: [LightSwitch] Enabling LightSwitch v1
+[00:40:22] [Server thread/INFO]: [LightSwitch] LightSwitch Has Been Enabled
+[00:40:22] [Server thread/INFO]: [ApexPads] Enabling ApexPads v1
+[00:40:22] [Server thread/INFO]: [ServerSigns] Enabling ServerSigns v3.0.0
+[00:40:22] [Server thread/INFO]: [ServerSigns] Successfully hooked into Vault
+[00:40:22] [Server thread/INFO]: [ServerSigns] Version 3.0.0 is now enabled.
+[00:40:22] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v2.5-b699
+[00:40:22] [Server thread/INFO]: [Multiverse-Portals] - Version 2.5-b699 Enabled - By Rigby and fernferret
+[00:40:23] [Server thread/WARN]: [MVPLogging] Failed Parsing World for: Real-Spawn (World Error, World did not exist or was not imported into Multiverse-Core!)
+[00:40:23] [Server thread/WARN]: [MVPLogging] Portal Real-Spawn has an invalid LOCATION!
+[00:40:23] [Server thread/WARN]: [MVPLogging] Portal 'Real-Spawn' not loaded due to invalid location!
+[00:40:23] [Server thread/WARN]: [MVPLogging] Failed Parsing World for: Hub (World Error, World did not exist or was not imported into Multiverse-Core!)
+[00:40:23] [Server thread/WARN]: [MVPLogging] Portal Hub has an invalid LOCATION!
+[00:40:23] [Server thread/WARN]: [MVPLogging] Portal 'Hub' not loaded due to invalid location!
+[00:40:23] [Server thread/WARN]: [MVPLogging] Failed Parsing World for: Marp (World Error, World did not exist or was not imported into Multiverse-Core!)
+[00:40:23] [Server thread/WARN]: [MVPLogging] Portal Marp has an invalid LOCATION!
+[00:40:23] [Server thread/WARN]: [MVPLogging] Portal 'Marp' not loaded due to invalid location!
+[00:40:23] [Server thread/WARN]: [MVPLogging] Failed Parsing World for: Derp (World Error, World did not exist or was not imported into Multiverse-Core!)
+[00:40:23] [Server thread/WARN]: [MVPLogging] Portal Derp has an invalid LOCATION!
+[00:40:23] [Server thread/WARN]: [MVPLogging] Portal 'Derp' not loaded due to invalid location!
+[00:40:23] [Server thread/INFO]: [MVPLogging] 7 - Portals(s) loaded
+[00:40:23] [Server thread/WARN]: [Multiverse-Core] Portal plotworld1 has an invalid DESTINATION!
+[00:40:23] [Server thread/INFO]: [HeavySpleef] Enabling HeavySpleef v1.5.1
+[00:40:23] [Server thread/INFO]: [HeavySpleef] Loaded 0 games!
+[00:40:23] [Server thread/INFO]: [HeavySpleef] HeavySpleef v1.5.1 activated!
+[00:40:23] [Server thread/INFO]: [Multiverse-SignPortals] Enabling Multiverse-SignPortals v2.5-b665
+[00:40:23] [Server thread/INFO]: [Multiverse-SignPortals 2.5-b665]  Enabled - By Rigby and fernferret
+[00:40:23] [Server thread/INFO]: [blFriends] Enabling blFriends v0.9.7c
+[00:40:23] [Server thread/INFO]: [blFriends] Loading DoubleXP feature with region Support
+[00:40:23] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v2.5-b675
+[00:40:23] [Server thread/INFO]: [Multiverse-NetherPortals] - Version 2.5-b675 Enabled - By Rigby and fernferret
+[00:40:23] [Server thread/INFO]: [EchoPet] Enabling EchoPet v2.3.3-b408
+[00:40:23] [Server thread/INFO]: [EchoPet] [WorldGuard] Successfully hooked
+[00:40:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:40:25] [Server thread/INFO]: Done (7.346s)! For help, type "help" or "?"
+[00:40:25] [pool-3-thread-2/INFO]: Checking if conversion to UUID needed...
+[00:40:25] [pool-3-thread-2/INFO]: Verifying if database needs conversion
+[00:40:25] [pool-3-thread-2/INFO]: Starting to convert plots to UUID
+[00:40:25] [Server thread/INFO]: /172.248.248.0:2389 lost connection: Disconnected
+[00:40:25] [pool-3-thread-2/INFO]: Fetching 0 UUIDs from Mojang servers...
+[00:40:25] [pool-3-thread-2/INFO]: Finished fetching 0 UUIDs. Starting database update.
+[00:40:25] [pool-3-thread-2/INFO]: 0 players converted
+[00:40:25] [pool-3-thread-2/INFO]: Plot conversion finished
+[00:40:25] [pool-3-thread-16/INFO]: [Vault] Checking for Updates:
+[00:40:25] [pool-3-thread-16/WARN]: [Vault] Stable Version: 1.4.1 is out! You are still running version: 1.2.31
+[00:40:25] [pool-3-thread-16/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+[00:40:25] [pool-3-thread-14/INFO]: [EchoPet] [0;32;1m[INFO] [0;33;22mAn update is available: EchoPet v2.3.3[m
+[00:40:25] [pool-3-thread-14/INFO]: [EchoPet] [0;32;1m[INFO] [0;33;22mType /ecupdate to update.[m
+[00:40:26] [pool-3-thread-12/INFO]: [iDisguise] An update for iDisguise is available: null[m
+[00:40:32] [User Authenticator #1/INFO]: UUID of player ItsJemoo is 009b4f9b9af1495aa6d07472260f7254
+[00:40:33] [Server thread/INFO]: ItsJemoo[/172.248.248.0:2422] logged in with entity id 55 at ([SpeedLeap] -835.2963284341015, 4.0, 1108.1173896756459)
+[00:40:41] [Server thread/INFO]: ItsJemoo issued server command: /sl join-1
+[00:40:45] [Server thread/INFO]: ItsJemoo issued server command: /gamemode c
+[00:40:45] [Server thread/INFO]: ItsJemoo: Set own game mode to CREATIVE mode[m
+[00:40:56] [User Authenticator #2/INFO]: UUID of player Minecraftiscewl is 36c84ed1708a4fc1b31e031bf1511de6
+[00:40:56] [Server thread/INFO]: Minecraftiscewl[/127.0.0.1:59351] logged in with entity id 156 at ([SpeedLeap] -900.6999999880791, 13.0, 915.7034179121705)
+[00:41:00] [Server thread/INFO]: [WorldEdit] Using inbuilt NmsBlock for this version.
+[00:41:11] [Server thread/INFO]: [0;33;22m[ApexSpeedLeap] [0;37;1mCongratulations, [0;33;22mItsJemoo has completed their SpeedLeap course![m
+[00:41:22] [Server thread/INFO]: Minecraftiscewl issued server command: /mvtp hub
+[00:41:27] [Server thread/WARN]: Minecraftiscewl moved wrongly!
+[00:41:31] [Server thread/INFO]: ItsJemoo issued server command: /sl join-1
+[00:41:36] [Server thread/INFO]: ItsJemoo issued server command: /gamemode c
+[00:41:36] [Server thread/INFO]: ItsJemoo: Set own game mode to CREATIVE mode[m
+[00:41:48] [Server thread/INFO]: [0;33;22m[ApexSpeedLeap] [0;37;1mCongratulations, [0;33;22mItsJemoo has completed their SpeedLeap course![m
+[00:42:07] [Server thread/WARN]: Minecraftiscewl moved wrongly!
+[00:42:27] [Netty IO #5/INFO]: [SpeedLeap] <ItsJemoo> Good night
+[00:42:28] [Server thread/INFO]: ItsJemoo lost connection: Disconnected
+[00:42:28] [Server thread/INFO]: ItsJemoo left the game.
+[00:50:37] [Server thread/INFO]: Minecraftiscewl lost connection: Disconnected
+[00:50:37] [Server thread/INFO]: Minecraftiscewl left the game.
+[00:50:47] [Server thread/INFO]: CONSOLE: Forcing save..[m
+[00:50:47] [Server thread/INFO]: CONSOLE: Save complete.[m
